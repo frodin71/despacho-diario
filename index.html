@@ -3,16 +3,470 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Despacho Diario</title>
+<title>El Despacho</title>
+<meta name="description" content="Despacho diario de noticias: Internacional y Chile. Se actualiza cada mañana.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-  body{margin:0;height:100vh;display:grid;place-items:center;background:#0f0f10;color:#eee;
-       font-family:system-ui,sans-serif;text-align:center}
+  /* =========================================================
+     TOKENS — todo el cambio de diseño vive en variables.
+     El markup del contenido es idéntico en ambos temas.
+     ========================================================= */
+  :root{
+    --serif:"Fraunces",Georgia,serif;
+    --read:"Newsreader",Georgia,serif;
+    --sans:"Inter",system-ui,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,monospace;
+  }
+  /* ---- TEMA A · TÉLEX (papel) ---- */
+  body[data-theme="telex"]{
+    --paper:#F4EFE6; --ink:#1A1815; --accent:#E2452B; --accent2:#9A7B3F;
+    --muted:#6B655C; --hair:#d8cfbf; --card-ink:#2a2723;
+    --font-display:var(--serif); --font-body:var(--read);
+    --card-bg:transparent; --card-radius:0; --card-pad:0;
+    --card-shadow:none; --card-border:none;
+    --img-radius:0; --hl-lead-w:600; --hl-story-w:600; --hl-lead-ls:-.005em;
+    --brief-bg:rgba(255,255,255,.4); --brief-border:1px solid rgba(26,24,21,.06); --brief-radius:4px;
+  }
+  /* ---- TEMA B · DIARIO (limpio / material) ---- */
+  body[data-theme="clean"]{
+    --paper:#F7F8FA; --ink:#1F2430; --accent:#2563EB; --accent2:#5B6472;
+    --muted:#7A8290; --hair:#E6E9EF; --card-ink:#3A414D;
+    --font-display:var(--sans); --font-body:var(--sans);
+    --card-bg:#FFFFFF; --card-radius:18px; --card-pad:22px;
+    --card-shadow:0 1px 2px rgba(20,30,60,.06),0 6px 22px rgba(20,30,60,.05);
+    --card-border:1px solid #EDF0F5;
+    --img-radius:12px; --hl-lead-w:300; --hl-story-w:400; --hl-lead-ls:-.02em;
+    --brief-bg:rgba(255,255,255,.5); --brief-border:1px solid rgba(31,36,48,.045); --brief-radius:16px;
+  }
+
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--font-body);font-size:19px;line-height:1.5;
+    -webkit-font-smoothing:antialiased;transition:background .3s,color .3s;
+  }
+
+  /* ---------- teletipo (solo tema télex) ---------- */
+  .telex{
+    background:var(--ink);color:var(--paper);
+    font-family:var(--mono);font-size:12px;letter-spacing:.14em;
+    text-transform:uppercase;overflow:hidden;white-space:nowrap;
+    border-bottom:2px solid var(--accent);
+  }
+  body[data-theme="clean"] .telex{display:none}
+  .telex .track{display:inline-block;padding:9px 0;animation:slide 32s linear infinite}
+  .telex .track span{padding:0 1.4em;color:#cfc7b9}
+  .telex .track b{color:var(--accent);font-weight:500}
+  @keyframes slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  @media (prefers-reduced-motion:reduce){.telex .track{animation:none}}
+
+  /* ---------- página + perforación ---------- */
+  .page{max-width:1120px;margin:0 auto;padding:0 clamp(20px,5vw,64px);position:relative}
+  body[data-theme="telex"] .page::before,
+  body[data-theme="telex"] .page::after{
+    content:"";position:absolute;top:0;bottom:0;width:14px;
+    background-image:radial-gradient(var(--hair) 42%,transparent 44%);
+    background-size:14px 26px;background-repeat:repeat-y;opacity:.9;
+  }
+  .page::before{left:2px}.page::after{right:2px}
+  @media (max-width:720px){.page::before,.page::after{display:none}}
+
+  /* ---------- masthead ---------- */
+  header.mast{position:relative;text-align:center;padding:44px 0 8px}
+  .mast h1{
+    font-family:var(--font-display);font-weight:900;
+    font-size:clamp(42px,9vw,92px);line-height:.9;margin:0;letter-spacing:-.02em;
+  }
+  body[data-theme="telex"] .mast h1{font-variation-settings:"opsz"144}
+  body[data-theme="clean"] .mast h1{font-weight:600;letter-spacing:-.04em}
+  .mast .rule{display:flex;align-items:center;gap:14px;justify-content:center;margin-top:16px}
+  .mast .rule::before,.mast .rule::after{content:"";height:1px;background:var(--ink);flex:1;max-width:90px;opacity:.35}
+  body[data-theme="clean"] .mast .rule::before,
+  body[data-theme="clean"] .mast .rule::after{display:none}
+
+  /* ---------- fecha (dateline, estático) ---------- */
+  .mast .dateline{font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+  .cursor{display:inline-block;width:.55em;height:1em;background:var(--accent);
+    vertical-align:-.12em;animation:blink 1.05s steps(1) infinite;margin-left:.2em}
+  @keyframes blink{50%{opacity:0}}
+  @media (prefers-reduced-motion:reduce){.cursor{animation:none}}
+
+  /* ---------- botón calendario (burbuja, esquina superior izquierda) ---------- */
+  .cal-toggle{position:absolute;top:20px;left:0;width:38px;height:38px;border-radius:999px;
+    display:grid;place-items:center;cursor:pointer;border:1px solid var(--hair);
+    background:transparent;color:var(--muted);transition:border-color .15s,color .15s}
+  body[data-theme="telex"] .cal-toggle{background:rgba(0,0,0,.03)}
+  .cal-toggle:hover{border-color:var(--accent);color:var(--accent)}
+  .cal-toggle svg{width:17px;height:17px;display:block}
+  @media (max-width:560px){.cal-toggle{position:static;margin:14px auto 0}}
+
+  .calendar{position:absolute;left:0;top:66px;z-index:30;
+    width:300px;max-width:calc(100vw - 32px);background:var(--card-bg);border:1px solid var(--hair);
+    border-radius:16px;box-shadow:0 12px 44px rgba(0,0,0,.20);padding:16px}
+  body[data-theme="telex"] .calendar{background:var(--paper)}
+  .calendar[hidden]{display:none}
+  .cal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+  .cal-head button{border:0;background:none;cursor:pointer;color:var(--ink);font-family:var(--mono);
+    font-size:17px;padding:2px 10px;border-radius:8px}
+  .cal-head button:hover{color:var(--accent)}
+  .cal-title{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink)}
+  .cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:3px}
+  .cal-grid .dow{font-family:var(--mono);font-size:9px;letter-spacing:.04em;color:var(--muted);
+    padding:4px 0;text-transform:uppercase;text-align:center}
+  .cal-day{aspect-ratio:1;border:0;background:none;border-radius:9px;color:var(--muted);
+    font-family:var(--mono);font-size:12px;opacity:.32;cursor:default;display:grid;place-items:center}
+  .cal-day.has{opacity:1;color:var(--ink);cursor:pointer;background:color-mix(in srgb,var(--accent) 12%,transparent)}
+  .cal-day.has:hover{background:var(--accent);color:#fff}
+  .cal-day.sel{background:var(--accent)!important;color:#fff}
+  .cal-day.empty{visibility:hidden}
+
+  /* ---------- switch de tema ---------- */
+  .theme-switch{position:absolute;top:20px;right:0;display:inline-flex;
+    border:1px solid var(--hair);border-radius:999px;padding:3px;
+    font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase}
+  body[data-theme="telex"] .theme-switch{background:rgba(0,0,0,.03)}
+  .theme-switch button{border:0;background:none;color:var(--muted);cursor:pointer;
+    padding:6px 12px;border-radius:999px;font:inherit;letter-spacing:inherit}
+  .theme-switch button.on{background:var(--accent);color:#fff}
+  @media (max-width:560px){.theme-switch{position:static;margin:14px auto 0;justify-content:center;width:fit-content}}
+
+  /* ---------- tabs de sección ---------- */
+  .tabs{display:flex;gap:6px;justify-content:center;margin:22px 0 4px;border-bottom:1px solid var(--hair)}
+  .tabs button{border:0;background:none;cursor:pointer;font-family:var(--font-display);
+    font-size:clamp(22px,4vw,34px);font-weight:900;color:var(--muted);
+    padding:6px 20px 14px;position:relative;letter-spacing:-.01em;transition:color .2s}
+  body[data-theme="clean"] .tabs button{font-weight:400}
+  .tabs button::after{content:"";position:absolute;left:16px;right:16px;bottom:-1px;height:3px;
+    background:var(--accent);border-radius:3px;transform:scaleX(0);transition:transform .22s}
+  .tabs button.on{color:var(--ink)}
+  .tabs button.on::after{transform:scaleX(1)}
+
+  .wire-cap{text-align:center;font-family:var(--mono);font-size:11px;letter-spacing:.2em;
+    text-transform:uppercase;color:var(--accent);margin:18px 0 30px}
+
+  /* ---------- secciones ---------- */
+  section.feed{display:none}
+  section.feed.on{display:block;animation:fade .3s ease}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .notas{opacity:0;transition:opacity .25s}
+  .notas.ready{opacity:1}
+
+  /* ---------- artículo (compartido) ---------- */
+  article{margin:0 0 34px}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--accent);margin:0 0 8px}
+  .eyebrow.minor{color:var(--accent2)}
+  h3.hl{font-family:var(--font-display);margin:0 0 .35em;line-height:1.05;letter-spacing:-.005em}
+  .dek{margin:0;color:var(--card-ink);font-size:1.02em}
+  figure{margin:0 0 16px;background:var(--hair);overflow:hidden;border-radius:var(--img-radius)}
+  figure img{display:block;width:100%;height:100%;object-fit:cover}
+  figure.skel{position:relative}
+  body[data-theme="telex"] figure.skel{background-image:repeating-linear-gradient(45deg,var(--hair) 0 2px,transparent 2px 9px)}
+  body[data-theme="clean"] figure.skel{background:linear-gradient(135deg,#EEF1F6,#F6F8FB)}
+  figure.skel::after{content:"SIN IMAGEN";position:absolute;inset:0;display:grid;place-items:center;
+    font-family:var(--mono);font-size:10px;letter-spacing:.2em;color:var(--muted);opacity:.6}
+
+  /* ---------- lead (apertura, ancho completo) ---------- */
+  .lead{border-bottom:1px solid var(--hair);padding-bottom:30px;margin-bottom:34px}
+  body[data-theme="clean"] .lead{background:var(--card-bg);border:var(--card-border);
+    border-radius:var(--card-radius);padding:var(--card-pad);box-shadow:var(--card-shadow)}
+  .lead figure{aspect-ratio:16/8}
+  .lead h3.hl{font-size:clamp(32px,5.5vw,54px);font-weight:var(--hl-lead-w);letter-spacing:var(--hl-lead-ls)}
+  body[data-theme="telex"] .lead h3.hl{font-variation-settings:"opsz"100}
+  .lead .dek{font-size:1.16em;max-width:62ch}
+
+  /* ---------- rail de medianas (scroll horizontal, ~½ columna) ---------- */
+  .story-rail{display:flex;gap:34px;overflow-x:auto;padding:2px 2px 18px;margin-bottom:8px;
+    scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:var(--hair) transparent}
+  .story-rail::-webkit-scrollbar{height:8px}
+  .story-rail::-webkit-scrollbar-thumb{background:var(--hair);border-radius:8px}
+  .story-rail::-webkit-scrollbar-track{background:transparent}
+
+  /* ---- affordance de scroll: degradé de borde + flechas ---- */
+  .rail-wrap{position:relative}
+  .rail-wrap::before,.rail-wrap::after{content:"";position:absolute;top:0;bottom:14px;width:72px;
+    pointer-events:none;opacity:0;transition:opacity .25s;z-index:2}
+  .rail-wrap::after{right:0;background:linear-gradient(to right,transparent,var(--paper) 82%)}
+  .rail-wrap::before{left:0;background:linear-gradient(to left,transparent,var(--paper) 82%)}
+  .rail-wrap.more::after{opacity:1}
+  .rail-wrap.less::before{opacity:1}
+  .rail-nav{position:absolute;top:calc(50% - 18px);transform:translateY(-50%);z-index:3;cursor:pointer;
+    width:42px;height:42px;border-radius:999px;display:grid;place-items:center;padding:0;
+    background:var(--paper);color:var(--ink);border:1px solid var(--hair);
+    box-shadow:0 3px 14px rgba(0,0,0,.14);font-family:var(--mono);font-size:20px;line-height:1;
+    opacity:0;pointer-events:none;transition:opacity .2s,transform .15s}
+  .rail-nav:hover{transform:translateY(-50%) scale(1.08)}
+  .rail-prev{left:2px}.rail-next{right:2px}
+  .rail-wrap.more .rail-next,.rail-wrap.less .rail-prev{opacity:1;pointer-events:auto}
+  @media (hover:none){.rail-nav{display:none}}
+
+  .story{flex:0 0 clamp(280px,48%,480px);scroll-snap-align:start;margin:0}
+  body[data-theme="clean"] .story{background:var(--card-bg);border:var(--card-border);
+    border-radius:var(--card-radius);padding:var(--card-pad);box-shadow:var(--card-shadow)}
+  .story figure{aspect-ratio:16/10;margin-bottom:14px}
+  .story h3.hl{font-size:clamp(22px,3vw,27px);font-weight:var(--hl-story-w)}
+  .story .dek{font-size:.96em;color:var(--muted)}
+
+  /* ---------- breves (chicas, difuminadas, scroll horizontal) ---------- */
+  .briefs{margin-top:28px}
+  .briefs .cap{display:flex;align-items:center;gap:.8em;font-family:var(--mono);font-size:11px;
+    letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin:0 0 14px}
+  .brief-rail{display:flex;gap:14px;overflow-x:auto;padding:2px 2px 14px;
+    scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:var(--hair) transparent}
+  .brief-rail::-webkit-scrollbar{height:8px}
+  .brief-rail::-webkit-scrollbar-thumb{background:var(--hair);border-radius:8px}
+  .brief-rail::-webkit-scrollbar-track{background:transparent}
+  .brief{flex:0 0 clamp(230px,44%,290px);scroll-snap-align:start;padding:16px 18px;
+    background:var(--brief-bg);border:var(--brief-border);border-radius:var(--brief-radius)}
+  .brief .eyebrow{margin-bottom:5px}
+  .brief h3.hl{font-size:18px;font-weight:600;line-height:1.2;letter-spacing:0}
+  body[data-theme="clean"] .brief h3.hl{font-weight:500}
+  .brief .dek{font-size:.88em;color:var(--muted);margin-top:3px}
+  .brief .src{margin-top:10px;font-size:10px}
+
+  /* ---------- leer más ---------- */
+  details{margin-top:12px;border-top:1px dashed var(--hair);padding-top:10px}
+  details summary{list-style:none;cursor:pointer;font-family:var(--mono);font-size:11px;
+    letter-spacing:.18em;text-transform:uppercase;color:var(--accent);display:inline-flex;
+    align-items:center;gap:.5em;user-select:none}
+  details summary::-webkit-details-marker{display:none}
+  details summary .car{transition:transform .2s}
+  details[open] summary .car{transform:rotate(90deg)}
+  details .more{margin:10px 0 0;color:var(--card-ink);font-size:.98em;max-width:64ch}
+
+  .src{display:inline-block;margin-top:12px;font-family:var(--mono);font-size:11px;
+    letter-spacing:.12em;text-transform:uppercase;color:var(--ink);text-decoration:none;
+    border-bottom:2px solid var(--accent);padding-bottom:1px}
+  .src:hover{color:var(--accent)}
+
+  footer{text-align:center;padding:44px 0 60px;color:var(--muted);
+    font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase}
 </style>
 </head>
-<body>
-  <div>
-    <h1>Despacho Diario</h1>
-    <p>Preparándose… la primera edición llega pronto.</p>
-  </div>
+<body data-theme="clean">
+
+<div class="telex"><div class="track" id="telexTrack"></div></div>
+
+<div class="page">
+
+  <header class="mast">
+    <button class="cal-toggle" id="calBtn" aria-label="Abrir calendario" title="Ver otras ediciones">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="17" rx="2.5"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/></svg>
+    </button>
+    <div class="calendar" id="calendar" hidden></div>
+    <div class="theme-switch" role="group" aria-label="Cambiar diseño">
+      <button data-theme-btn="telex">Télex</button>
+      <button data-theme-btn="clean" class="on">Diario</button>
+    </div>
+    <h1>El Despacho</h1>
+    <div class="rule"><span class="dateline"><span id="dateText">Cargando…</span><span class="cursor"></span></span></div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button data-tab="intl" class="on" role="tab">Internacional</button>
+    <button data-tab="chile" role="tab">Chile</button>
+  </nav>
+
+  <!-- ==========================================================
+       Contenido data-driven. La rutina diaria NO edita este HTML:
+       solo escribe data/AAAA-MM-DD.json y agrega la fecha a
+       data/index.json. El diseño queda fijo acá.
+
+       REGLA DE JERARQUÍA (según cantidad de notas por sección):
+         1 nota   → principal (lead, ancho completo)
+         2 notas  → dos medianas
+         3 notas  → una grande + dos medianas
+         4+ notas → una grande + resto medianas (½ col) con scroll
+       ========================================================== -->
+  <section class="feed on" id="intl"></section>
+  <section class="feed" id="chile"></section>
+
+  <footer id="foot">El Despacho · Generado automáticamente · Fuentes enlazadas en cada nota</footer>
+
+</div>
+
+<script>
+  const body=document.body;
+  const DOW=['DOM','LUN','MAR','MIÉ','JUE','VIE','SÁB'];
+  const MON=['ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC'];
+  const MON_FULL=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+  const DOW_MIN=['Lu','Ma','Mi','Ju','Vi','Sá','Do'];
+  const state={manifest:null,cache:{},selected:null,calMonth:null};
+
+  const el=(t,c,txt)=>{const e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e;};
+  const ymd=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  const parseYMD=s=>{const[y,m,dd]=s.split('-').map(Number);return new Date(y,m-1,dd);};
+  const shortDate=s=>{const d=parseYMD(s);return `${DOW[d.getDay()]} ${String(d.getDate()).padStart(2,'0')}·${MON[d.getMonth()]}·${d.getFullYear()}`;};
+
+  /* ---- tema (persistente) ---- */
+  const savedTheme=localStorage.getItem('despacho-theme-v2');
+  if(savedTheme) setTheme(savedTheme);
+  document.querySelectorAll('[data-theme-btn]').forEach(b=>b.addEventListener('click',()=>setTheme(b.dataset.themeBtn)));
+  function setTheme(t){body.dataset.theme=t;document.querySelectorAll('[data-theme-btn]').forEach(b=>b.classList.toggle('on',b.dataset.themeBtn===t));localStorage.setItem('despacho-theme-v2',t);}
+
+  /* ---- tabs ---- */
+  document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>activateTab(b.dataset.tab)));
+  function activateTab(id){
+    document.querySelectorAll('[data-tab]').forEach(x=>x.classList.toggle('on',x.dataset.tab===id));
+    document.querySelectorAll('.feed').forEach(s=>s.classList.toggle('on',s.id===id));
+  }
+
+  /* ---- affordance de scroll horizontal ---- */
+  function setupRail(rail){
+    const wrap=el('div','rail-wrap');
+    rail.parentNode.insertBefore(wrap,rail); wrap.appendChild(rail);
+    const prev=el('button','rail-nav rail-prev','‹'); prev.setAttribute('aria-label','Anterior');
+    const next=el('button','rail-nav rail-next','›'); next.setAttribute('aria-label','Siguiente');
+    wrap.append(prev,next);
+    const step=()=>Math.max(rail.clientWidth*0.8,240);
+    prev.onclick=()=>rail.scrollBy({left:-step(),behavior:'smooth'});
+    next.onclick=()=>rail.scrollBy({left:step(),behavior:'smooth'});
+    const update=()=>{
+      wrap.classList.toggle('more', rail.scrollLeft+rail.clientWidth < rail.scrollWidth-4);
+      wrap.classList.toggle('less', rail.scrollLeft>4);
+    };
+    rail.addEventListener('scroll',update,{passive:true});
+    window.addEventListener('resize',update);
+    rail.querySelectorAll('img').forEach(img=>img.addEventListener('load',update));
+    window.addEventListener('load',update);
+    requestAnimationFrame(update); setTimeout(update,400);
+  }
+
+  /* ---- jerarquía automática por cantidad ---- */
+  function arrange(box){
+    const notas=[...box.querySelectorAll('.nota')];
+    const n=notas.length;
+    const rail=el('div','story-rail');
+    const asLead=a=>{a.classList.remove('nota','story');a.classList.add('lead');box.appendChild(a);};
+    const asStory=a=>{a.classList.remove('nota','lead');a.classList.add('story');rail.appendChild(a);};
+    if(n===1){ asLead(notas[0]); }
+    else if(n===2){ notas.forEach(asStory); box.appendChild(rail); }
+    else if(n>=3){ asLead(notas[0]); notas.slice(1).forEach(asStory); box.appendChild(rail); }
+    if(rail.children.length) setupRail(rail);
+    requestAnimationFrame(()=>box.classList.add('ready'));
+  }
+
+  /* ---- construcción de nodos ---- */
+  function buildNota(n){
+    const art=el('article','nota');
+    art.appendChild(el('p','eyebrow',n.eyebrow||''));
+    const fig=el('figure');
+    if(n.image){const img=el('img');img.src=n.image;img.alt='';img.loading='lazy';fig.appendChild(img);}
+    else fig.classList.add('skel');
+    art.appendChild(fig);
+    art.appendChild(el('h3','hl',n.title||''));
+    if(n.dek) art.appendChild(el('p','dek',n.dek));
+    if(n.more){
+      const d=el('details'), s=el('summary');
+      s.appendChild(el('span','car','▸')); s.appendChild(document.createTextNode(' Leer más'));
+      d.appendChild(s); d.appendChild(el('p','more',n.more)); art.appendChild(d);
+    }
+    if(n.source){const a=el('a','src','Ver noticia original →');a.href=n.source;a.target='_blank';a.rel='noopener';art.appendChild(a);}
+    return art;
+  }
+  function buildBrief(b){
+    const art=el('article','brief');
+    art.appendChild(el('p','eyebrow minor',b.eyebrow||''));
+    art.appendChild(el('h3','hl',b.title||''));
+    if(b.dek) art.appendChild(el('p','dek',b.dek));
+    if(b.source){const a=el('a','src','Ver original →');a.href=b.source;a.target='_blank';a.rel='noopener';art.appendChild(a);}
+    return art;
+  }
+
+  /* ---- render ---- */
+  function renderTicker(d){
+    const track=document.getElementById('telexTrack');
+    const seg=()=>{
+      const f=document.createDocumentFragment();
+      const add=(txt,bold)=>{const sp=el('span');bold?sp.appendChild(el('b',null,txt)):sp.textContent=txt;f.appendChild(sp);};
+      add('DESPACHO DIARIO'); add('ED.'+d.edition,true); add('SANTIAGO DE CHILE'); add(shortDate(d.date)); add('ACTUALIZADO 08:00');
+      const sp=el('span'); sp.appendChild(el('b',null,'+++')); sp.appendChild(document.createTextNode(' DESPACHO EN CURSO ')); sp.appendChild(el('b',null,'+++')); f.appendChild(sp);
+      return f;
+    };
+    track.innerHTML=''; track.appendChild(seg()); track.appendChild(seg());
+  }
+  function renderSection(id,sec){
+    const s=document.getElementById(id); s.innerHTML='';
+    const count=(sec.notas?.length||0)+(sec.briefs?.length||0);
+    s.appendChild(el('p','wire-cap',`// ${sec.wire} · ${count} despacho${count===1?'':'s'}`));
+    const notasBox=el('div','notas');
+    (sec.notas||[]).forEach(n=>notasBox.appendChild(buildNota(n)));
+    s.appendChild(notasBox);
+    arrange(notasBox);
+    if(sec.briefs&&sec.briefs.length){
+      const briefs=el('div','briefs');
+      briefs.appendChild(el('p','cap','// En breve'));
+      const rail=el('div','brief-rail');
+      sec.briefs.forEach(b=>rail.appendChild(buildBrief(b)));
+      briefs.appendChild(rail); s.appendChild(briefs); setupRail(rail);
+    }
+  }
+  function render(d){
+    renderTicker(d);
+    document.getElementById('dateText').textContent=`${d.dateLabel} · Edición ${d.edition}`;
+    document.getElementById('foot').textContent=`El Despacho · Generado automáticamente · Fuentes enlazadas en cada nota · ${d.dateLabel}`;
+    renderSection('intl',d.sections.intl);
+    renderSection('chile',d.sections.chile);
+    activateTab('intl');
+  }
+
+  /* ---- calendario ---- */
+  function renderCalendar(){
+    const cal=document.getElementById('calendar'); cal.innerHTML='';
+    const avail=new Set(state.manifest.dates);
+    const m=state.calMonth.getMonth(), y=state.calMonth.getFullYear();
+    const head=el('div','cal-head');
+    const pm=el('button',null,'‹'); pm.onclick=e=>{e.stopPropagation();state.calMonth=new Date(y,m-1,1);renderCalendar();};
+    const nm=el('button',null,'›'); nm.onclick=e=>{e.stopPropagation();state.calMonth=new Date(y,m+1,1);renderCalendar();};
+    head.append(pm, el('div','cal-title',`${MON_FULL[m]} ${y}`), nm);
+    cal.appendChild(head);
+    const grid=el('div','cal-grid');
+    DOW_MIN.forEach(d=>grid.appendChild(el('div','dow',d)));
+    const offset=(new Date(y,m,1).getDay()+6)%7;
+    for(let k=0;k<offset;k++) grid.appendChild(el('div','cal-day empty'));
+    const days=new Date(y,m+1,0).getDate();
+    for(let day=1;day<=days;day++){
+      const dstr=ymd(new Date(y,m,day));
+      const b=el('button','cal-day',String(day));
+      if(avail.has(dstr)){ b.classList.add('has'); b.onclick=()=>load(dstr); }
+      if(dstr===state.selected) b.classList.add('sel');
+      grid.appendChild(b);
+    }
+    cal.appendChild(grid);
+  }
+  document.getElementById('calBtn').addEventListener('click',e=>{
+    e.stopPropagation();
+    const c=document.getElementById('calendar'); c.hidden=!c.hidden;
+  });
+  document.addEventListener('click',e=>{
+    const c=document.getElementById('calendar'), btn=document.getElementById('calBtn');
+    if(!c.hidden && !c.contains(e.target) && !btn.contains(e.target)) c.hidden=true;
+  });
+
+  /* ---- carga ---- */
+  async function load(date){
+    if(!state.cache[date]) state.cache[date]=await fetch(`data/${date}.json`,{cache:'no-store'}).then(r=>r.json());
+    state.selected=date; state.calMonth=parseYMD(date);
+    history.replaceState(null,'',`#${date}`);
+    render(state.cache[date]); renderCalendar();
+    document.getElementById('calendar').hidden=true;
+  }
+  async function boot(){
+    try{
+      state.manifest=await fetch('data/index.json',{cache:'no-store'}).then(r=>r.json());
+      state.manifest.dates.sort();
+      const want=decodeURIComponent(location.hash.slice(1));
+      const initial=state.manifest.dates.includes(want)?want:state.manifest.latest;
+      await load(initial);
+    }catch(err){
+      console.error(err);
+      document.getElementById('intl').innerHTML='<p class="wire-cap">No se pudo cargar el despacho. Si estás abriendo el archivo localmente, servilo por HTTP.</p>';
+    }
+  }
+  boot();
+</script>
 </body>
 </html>
