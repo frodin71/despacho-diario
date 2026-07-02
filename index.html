@@ -450,7 +450,6 @@
   async function load(date){
     if(!state.cache[date]) state.cache[date]=await fetch(`data/${date}.json`,{cache:'no-store'}).then(r=>r.json());
     state.selected=date; state.calMonth=parseYMD(date);
-    history.replaceState(null,'',`#${date}`);
     render(state.cache[date]); renderCalendar();
     document.getElementById('calendar').hidden=true;
   }
@@ -458,9 +457,8 @@
     try{
       state.manifest=await fetch('data/index.json',{cache:'no-store'}).then(r=>r.json());
       state.manifest.dates.sort();
-      const want=decodeURIComponent(location.hash.slice(1));
-      const initial=state.manifest.dates.includes(want)?want:state.manifest.latest;
-      await load(initial);
+      // Siempre abrir en la última edición (evita quedar pegado en un día viejo).
+      await load(state.manifest.latest);
     }catch(err){
       console.error(err);
       document.getElementById('intl').innerHTML='<p class="wire-cap">No se pudo cargar el despacho. Si estás abriendo el archivo localmente, servilo por HTTP.</p>';
