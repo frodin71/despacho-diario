@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>El Despacho</title>
-<meta name="description" content="Despacho diario de noticias: Internacional y Chile. Se actualiza cada mañana.">
+<title>Noticias</title>
+<meta name="description" content="Noticias: Internacional y Chile. Se actualiza cada mañana.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -264,7 +264,7 @@
       <button data-theme-btn="telex">Télex</button>
       <button data-theme-btn="clean" class="on">Diario</button>
     </div>
-    <h1>El Despacho</h1>
+    <h1>Noticias</h1>
     <div class="rule"><span class="dateline"><span id="dateText">Cargando…</span><span class="cursor"></span></span></div>
   </header>
 
@@ -287,7 +287,7 @@
   <section class="feed on" id="intl"></section>
   <section class="feed" id="chile"></section>
 
-  <footer id="foot">El Despacho · Generado automáticamente · Fuentes enlazadas en cada nota</footer>
+  <footer id="foot">Noticias · Generado automáticamente · Fuentes enlazadas en cada nota</footer>
 
 </div>
 
@@ -420,8 +420,8 @@
     const seg=()=>{
       const f=document.createDocumentFragment();
       const add=(txt,bold)=>{const sp=el('span');bold?sp.appendChild(el('b',null,txt)):sp.textContent=txt;f.appendChild(sp);};
-      add('DESPACHO DIARIO'); add('ED.'+d.edition,true); add('SANTIAGO DE CHILE'); add(shortDate(d.date)); add('ACTUALIZADO 08:00');
-      const sp=el('span'); sp.appendChild(el('b',null,'+++')); sp.appendChild(document.createTextNode(' DESPACHO EN CURSO ')); sp.appendChild(el('b',null,'+++')); f.appendChild(sp);
+      add('NOTICIAS'); add('ED.'+d.edition,true); add('SANTIAGO DE CHILE'); add(shortDate(d.date)); add('ACTUALIZADO 07:00');
+      const sp=el('span'); sp.appendChild(el('b',null,'+++')); sp.appendChild(document.createTextNode(' EDICIÓN EN CURSO ')); sp.appendChild(el('b',null,'+++')); f.appendChild(sp);
       return f;
     };
     track.innerHTML=''; track.appendChild(seg()); track.appendChild(seg());
@@ -445,7 +445,7 @@
   function render(d){
     renderTicker(d);
     document.getElementById('dateText').textContent=`${d.dateLabel} · Edición ${d.edition}`;
-    document.getElementById('foot').textContent=`El Despacho · Generado automáticamente · Fuentes enlazadas en cada nota · ${d.dateLabel}`;
+    document.getElementById('foot').textContent=`Noticias · Generado automáticamente · Fuentes enlazadas en cada nota · ${d.dateLabel}`;
     renderSection('intl',d.sections.intl);
     renderSection('chile',d.sections.chile);
     activateTab('intl');
