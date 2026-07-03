@@ -1,0 +1,113 @@
+{
+  "date": "2026-07-02",
+  "dateLabel": "Jueves 2 de julio de 2026",
+  "edition": "002",
+  "sections": {
+    "intl": {
+      "label": "Internacional",
+      "wire": "world wire",
+      "notas": [
+        {
+          "eyebrow": "Guerra en Ucrania",
+          "title": "Rusia lanza su mayor ataque aéreo en meses contra Kyiv: al menos 20 muertos y 90 heridos",
+          "dek": "Un bombardeo de 11 horas con 74 misiles y 496 drones destruyó edificios residenciales y dejó incendios en toda la capital ucraniana.",
+          "more": "Las autoridades de Kyiv reportaron daños en al menos 28 puntos de la ciudad, la mayoría en barrios residenciales e infraestructura civil. Zelensky había advertido el martes que Rusia preparaba un gran ataque. Mientras Moscú afirmó haber apuntado a objetivos militares y energéticos, Ucrania respondió golpeando el sector petrolero de la región de Moscú con sus propios drones.",
+          "source": "https://www.proceso.com.mx/internacional/2026/7/2/ataque-ruso-deja-al-menos-20-muertos-en-kiev-mientras-ucrania-golpea-el-sector-petrolero-de-moscu-375277.html"
+        },
+        {
+          "eyebrow": "Crisis climática",
+          "title": "Ola de calor mata a más de 2.500 personas en Europa y pone en emergencia la red eléctrica de EEUU",
+          "dek": "Francia y España concentran la mayoría de las víctimas mientras Europa enfrenta la segunda ola de la temporada. Al otro lado del Atlántico, 188 millones de personas están bajo alerta y el sistema eléctrico entró en emergencia nacional.",
+          "more": "Una cúpula de calor formada por aire sahariano disparó las temperaturas hasta los 44,6 °C en Burdeos a fines de junio. El asfalto se derritió en tramos de autopistas de Alemania, Francia y Bélgica. En Estados Unidos, más de 150 millones de personas en 30 estados enfrentan calor extremo justo antes del feriado del 4 de julio, con riesgo de apagones. En el Oeste, tres bomberos murieron combatiendo incendios activos en Colorado y Utah.",
+          "source": "https://cnnespanol.cnn.com/2026/07/01/clima-y-tiempo/olas-calor-europa-estados-unidos-trax"
+        },
+        {
+          "eyebrow": "Israel",
+          "title": "Israel conmemora los 1.000 días del 7 de octubre entre protestas y divisiones políticas",
+          "dek": "Familias de las víctimas se reunieron en Tel Aviv a la hora exacta del ataque de Hamás y exigieron una comisión estatal de investigación que el gobierno de Netanyahu sigue rechazando.",
+          "more": "Los actos comenzaron a las 06:29 de la madrugada, hora precisa en que comenzó el asalto de Hamás en 2023. El acto central tuvo lugar en el parque Hayarkon con miles de asistentes. Durante la noche, manifestantes antigubernamentales bloquearon la autopista Ayalón, una de las arterias principales de Tel Aviv, y ocho personas fueron detenidas por la policía.",
+          "source": "https://www.perfil.com/noticias/internacional/israel-conmemoro-los-1000-dias-del-ataque-de-hamas-en-medio-de-protestas-y-pedidos-de-investigacion-estatal.phtml"
+        },
+        {
+          "eyebrow": "Mundial 2026",
+          "title": "Paraguay da el batacazo y elimina a Alemania en penales: el mayor resultado de los dieciseisavos",
+          "dek": "Los guaraníes aguantaron el 1-1 durante 120 minutos y el arquero Orlando Gill atajó dos lanzamientos para imponer el 4-3 en la tanda.",
+          "more": "El partido fue de enorme intensidad: Paraguay abrió el marcador con Enciso de cabeza antes del descanso, y Kai Havertz empató a los 54 minutos. En la prórroga, un cabezazo de Jonathan Tah fue anulado por el VAR por una falta previa sobre Gill. En los penales, la solidez del arquero y los nervios alemanes sellaron una de las eliminaciones más resonantes del torneo. Paraguay avanza a octavos de final.",
+          "source": "https://www.elgrafico.com.ar/articulo/mundial-2026/101046/epica-guarani-paraguay-dio-un-batacazo-mundial-y-elimino-a-alemania-por-penales"
+        }
+      ],
+      "briefs": [
+        {
+          "eyebrow": "Mundial 2026",
+          "title": "México vence 2-0 a Ecuador y avanza a octavos por primera vez desde 1986",
+          "dek": "Goles de Quiñones y Raúl Jiménez dieron el pase al seleccionado anfitrión, que espera rival entre Inglaterra y RD Congo.",
+          "source": "https://cnnespanol.cnn.com/2026/07/01/deportes/live-news/resultado-goles-mexico-ecuador-mundial-2026-orix"
+        },
+        {
+          "eyebrow": "Economía",
+          "title": "El BCE abre su foro anual en Sintra con foco en innovación y estabilidad europeas",
+          "dek": "El encuentro en Portugal reúne a los principales banqueros centrales del mundo para debatir el futuro de la política monetaria en Europa.",
+          "source": "https://www.infobae.com/america/agencias/2026/07/02/temas-del-dia-de-internacional-del-jueves-2-de-julio-de-2026-1200-gmt/"
+        },
+        {
+          "eyebrow": "Seguridad",
+          "title": "La OTAN ultima los detalles de su cumbre en Ankara, prevista para el 7 y 8 de julio",
+          "dek": "China y la relación con Pekín encabezan la agenda junto a defensa y resiliencia de los aliados.",
+          "source": "https://www.voanews.com/a/agenda-for-nato-summit-expected-to-include-china-issues-/7690027.html"
+        },
+        {
+          "eyebrow": "Comercio",
+          "title": "Washington confirma que no renovará el T-MEC y optará por revisiones anuales",
+          "dek": "La decisión genera incertidumbre para México y las cadenas de suministro de América del Norte.",
+          "source": "https://www.jornada.com.mx/noticia/2026/07/01/economia/decision-de-eu-sobre-el-tmec-genera-escenario-de-incertidumbre-concanaco"
+        },
+        {
+          "eyebrow": "Salud",
+          "title": "Ramaphosa viaja a la RDC para apoyar la respuesta de la Unión Africana al brote de ébola",
+          "dek": "El presidente sudafricano encabeza los esfuerzos continentales para contener la enfermedad en el este de la República Democrática del Congo.",
+          "source": "https://www.infobae.com/america/agencias/2026/07/02/temas-del-dia-de-internacional-del-jueves-2-de-julio-de-2026-1200-gmt/"
+        }
+      ]
+    },
+    "chile": {
+      "label": "Chile",
+      "wire": "santiago wire",
+      "notas": [
+        {
+          "eyebrow": "Economía",
+          "title": "Chile cumple cinco meses de caídas consecutivas: el Imacec de mayo retrocedió 0,9%",
+          "dek": "El desempleo llegó a 9,4%, su nivel más alto desde la pandemia, mientras los expertos advierten que el país está cerca de entrar en recesión técnica.",
+          "more": "La caída en mayo estuvo liderada por la minería, motor de la economía chilena y responsable del 55% de las exportaciones. En el primer trimestre el PIB ya había retrocedido 0,5% interanual. El presidente Kast reconoció que \"prenden más de una luz de alerta\" ante las cifras de desempleo. El deterioro acumulado plantea interrogantes sobre el rumbo del plan de reactivación del gobierno.",
+          "source": "https://www.jornada.com.mx/2026/07/02/economia/016n2eco"
+        },
+        {
+          "eyebrow": "Gobierno",
+          "title": "Kast atribuye la ralentización económica a la herencia de la administración anterior",
+          "dek": "El biministro Daniel Mas sostuvo que el gobierno recibió \"una economía estancada y golpeada\" desde mediados de 2025, y defiende el plan pro inversión como la salida.",
+          "more": "La administración Kast, que asumió el 11 de marzo, enfrenta la presión de opositores que apuntan a decisiones de la nueva gestión como factores del enfriamiento. El ejecutivo sigue apostando a que su proyecto económico misceláneo —cuya aprobación en julio espera— mejore las perspectivas de inversión.",
+          "source": "https://www.elmostrador.cl/noticias/pais/2026/07/01/gobierno-culpa-a-administracion-boric-para-defender-amenaza-de-recesion-recibio-pais-estancado/"
+        }
+      ],
+      "briefs": [
+        {
+          "eyebrow": "Mundial 2026",
+          "title": "Tres partidos de alto nivel hoy: España-Austria, Portugal-Croacia y Suiza-Argelia",
+          "dek": "El duelo Portugal vs. Croacia (19:00 Chile) es el más atractivo del día, con Cristiano Ronaldo buscando seguir su racha anotadora en su último Mundial.",
+          "source": "https://www.meganoticias.cl/deportes/525981-partidos-de-hoy-jueves-2-de-julio-del-mundial-2026-horarios-en-chile-y-datos-clave.html"
+        },
+        {
+          "eyebrow": "Política monetaria",
+          "title": "El Banco Central mantiene la tasa de interés de referencia sin cambios",
+          "dek": "El Consejo resolvió mantener la TPM, con la inflación anual en torno al 3,9% y las expectativas alineadas con la meta.",
+          "source": "https://www.bcentral.cl/contenido/-/detalle/publicaciones/politica-monetaria/ipom-junio-2026"
+        },
+        {
+          "eyebrow": "Sismología",
+          "title": "Nuevo temblor registrado en Chile durante la madrugada del 2 de julio",
+          "dek": "El CSN registró actividad sísmica en distintos puntos del territorio, sin reporte de daños estructurales.",
+          "source": "https://rpp.pe/mundo/chile/temblor-en-chile-hoy-1-de-julio-epicentro-del-sismo-segun-csn-live-3487"
+        }
+      ]
+    }
+  }
+}
