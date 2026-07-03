@@ -1,0 +1,159 @@
+{
+  "date": "2026-07-03",
+  "dateLabel": "Viernes 3 de julio de 2026",
+  "edition": "003",
+  "sections": {
+    "intl": {
+      "label": "Internacional",
+      "wire": "world wire",
+      "notas": [
+        {
+          "eyebrow": "Guerra en Ucrania",
+          "title": "Rusia lanza el mayor ataque sobre Kiev desde el inicio de la guerra: más de 20 muertos y cerca de 100 heridos",
+          "dek": "Un bombardeo de 11 horas con 496 drones y 74 misiles destruyó viviendas e infraestructura civil. La ONU lo calificó como el más devastador sobre la capital ucraniana.",
+          "more": "Las defensas aéreas ucranianas lograron derribar 476 de los drones y 48 de los misiles, pero apenas pudieron interceptar los proyectiles balísticos. Unas 52.000 personas buscaron refugio en estaciones de metro. El Consejo de Seguridad de la ONU sesionó de urgencia. Ucrania respondió atacando refinerías y depósitos de combustible en la región de Moscú. Trump exigió el fin de las \"matanzas insensatas\" y Washington mantiene sus conversaciones de paz con Kiev.",
+          "source": "https://www.infobae.com/america/mundo/2026/07/02/la-onu-condeno-el-mayor-ataque-ruso-contra-kiev-desde-el-inicio-de-la-guerra-al-menos-20-muertos-y-90-heridos/",
+          "imgPrompt": "smoke and flames rising from damaged residential buildings in a city at night, emergency vehicles and firefighters on site, aerial view of destruction"
+        },
+        {
+          "eyebrow": "Diplomacia",
+          "title": "Trump vuela a Ankara: la OTAN pondrá a prueba su agenda de paz para Ucrania",
+          "dek": "El presidente de EE.UU. asistirá a la cumbre aliada del 7 y 8 de julio. Rubio habló de 'enorme progreso' en las conversaciones de Ginebra, pero el ataque ruso complicó el panorama.",
+          "more": "El secretario general Mark Rutte advirtió que la agenda de Ankara también incluirá a China: un eventual movimiento de Pekín sobre Taiwán podría arrastrar a Moscú contra la Alianza. EE.UU. reiteró que seguirá suministrando armas a países aliados para trasladar a Ucrania mediante la iniciativa PURL. El foco diplomático del mundo estará en Turquía la próxima semana.",
+          "source": "https://www.voanews.com/a/agenda-for-nato-summit-expected-to-include-china-issues-/7690027.html",
+          "imgPrompt": "NATO flags and world leaders at a formal summit table in a modern conference hall, Ankara Turkey, diplomatic session"
+        },
+        {
+          "eyebrow": "Mundial 2026",
+          "title": "Messi y Argentina se juegan el pase a octavos frente a Cabo Verde en Miami",
+          "dek": "El campeón defensor debuta en la fase eliminatoria esta noche. Colombia enfrenta a Ghana en Kansas City en otro duelo de alto voltaje.",
+          "more": "Argentina terminó primera de su grupo y llega con favoritismo, pero el equipo africano sorprendió en la fase grupal. El partido se disputa en el Hard Rock Stadium de Miami desde las 19:00 horas de Chile. Colombia, clasificada segunda, se mide más tarde con Ghana en Kansas City a las 22:30. Ayer, Suiza eliminó a Argelia 2-0 y se metió en los octavos de final.",
+          "source": "https://www.espn.com/soccer/match/_/gameId/760500/cape-verde-argentina",
+          "imgPrompt": "Lionel Messi in Argentina blue and white striped jersey dribbling during a night World Cup match, packed stadium with colorful lights and fans"
+        },
+        {
+          "eyebrow": "Acuerdo nuclear",
+          "title": "El reloj corre para EE.UU. e Irán: 60 días para convertir el memorándum de junio en un acuerdo definitivo",
+          "dek": "Las conversaciones técnicas en Suiza avanzan pero siguen pendientes el programa nuclear iraní, las sanciones y la reapertura del estrecho de Ormuz.",
+          "more": "El memorándum fue firmado en junio por Trump y el presidente iraní Masoud Pezeshkian con mediación de Pakistán. Incluye una moratoria temporal en el enriquecimiento de uranio y la perspectiva de un plan de reconstrucción de US$300.000 millones para Irán. Trump lo calificó como 'America First in Action'. El plazo es extendible de mutuo acuerdo, pero las partes enfrentan presión política interna en ambos lados.",
+          "source": "https://www.npr.org/2026/06/19/nx-s1-5863544/trump-us-iran-agreement",
+          "imgPrompt": "diplomats seated at a negotiating table with US and Iranian flags in a formal conference room, international peace talks setting"
+        }
+      ],
+      "briefs": [
+        {
+          "eyebrow": "Guerra en Ucrania",
+          "title": "Ucrania golpea refinerías en la región de Moscú en respuesta al bombardeo sobre Kiev",
+          "dek": "Drones ucranianos alcanzaron instalaciones petroleras rusas como represalia directa al ataque masivo de la madrugada del jueves.",
+          "source": "https://www.proceso.com.mx/internacional/2026/7/2/ataque-ruso-deja-al-menos-20-muertos-en-kiev-mientras-ucrania-golpea-el-sector-petrolero-de-moscu-375277.html"
+        },
+        {
+          "eyebrow": "Unión Europea",
+          "title": "Irlanda asume la presidencia rotatoria del Consejo de la UE",
+          "dek": "El premier Michéal Martin y la presidenta de la Comisión Europea, Ursula von der Leyen, presentaron la agenda semestral con foco en competitividad y seguridad.",
+          "source": "https://cnnespanol.cnn.com/mundo"
+        },
+        {
+          "eyebrow": "Mundial 2026",
+          "title": "Colombia enfrenta a Ghana esta noche en Kansas City",
+          "dek": "Los cafeteros buscan su lugar en cuartos de final frente a una Ghana que sorprendió en la fase grupal.",
+          "source": "https://espndeportes.espn.com/futbol/partido/_/juegoId/760501/ghana-colombia"
+        },
+        {
+          "eyebrow": "Mundial 2026",
+          "title": "Suiza eliminó a Argelia 2-0 y ya está en octavos de final",
+          "dek": "La selección helvética se metió en los octavos de final tras una sólida actuación. Argelia se despide del torneo.",
+          "source": "https://sports.yahoo.com/soccer/live/world-cup-2026-bracket-scores-results-schedule-live-updates-round-of-32-173000083.html"
+        },
+        {
+          "eyebrow": "Canal de Panamá",
+          "title": "Las esclusas neopanamax reducen el calado permitido como medida preventiva por El Niño",
+          "dek": "El organismo canalero fijó un límite de 49,5 pies para los buques de mayor tamaño mientras evalúa el impacto del fenómeno climático en los niveles de agua.",
+          "source": "https://www.infobae.com/america/agencias/2026/07/02/viernes-3-de-julio-de-2026-1930-gmt/"
+        },
+        {
+          "eyebrow": "ONU",
+          "title": "El Consejo de Seguridad de la ONU sesionó de urgencia tras el ataque a Kiev",
+          "dek": "Las Naciones Unidas exigieron a Rusia el respeto al derecho internacional humanitario y condenaron el uso de misiles balísticos contra zonas residenciales.",
+          "source": "https://www.infobae.com/america/mundo/2026/07/02/la-onu-condeno-el-mayor-ataque-ruso-contra-kiev-desde-el-inicio-de-la-guerra-al-menos-20-muertos-y-90-heridos/"
+        }
+      ]
+    },
+    "chile": {
+      "label": "Chile",
+      "wire": "santiago wire",
+      "notas": [
+        {
+          "eyebrow": "Política",
+          "title": "Cadem: Kast cae a 38% y el 84% pide que las FFAA apoyen la seguridad ciudadana",
+          "dek": "La encuesta semanal muestra una baja de tres puntos en la aprobación presidencial, golpeada por el deterioro económico y la intensidad del debate por el crimen organizado.",
+          "more": "La desaprobación de Kast subió a 58%. La economía y el desempleo —que se mantiene en 9,4%— son la prioridad número uno del gobierno según el 67% de los encuestados. El debate por desplegar a las FFAA en labores de seguridad se disparó tras el asesinato de un niño de 12 años en San Bernardo. El presidente calificó esa medida como 'una solución fácil y populista', a pesar de que el 84% de los encuestados la apoya. También se conoció que el 51% rechaza un indulto general a uniformados condenados tras el estallido social.",
+          "source": "https://www.latercera.com/nacional/noticia/cadem-aprobacion-de-kast-cae-a-38-y-un-51-esta-en-contra-de-indultos-a-exuniformados-condenados-en-el-marco-del-estallido-social/",
+          "imgPrompt": "a press conference at La Moneda government palace in Santiago Chile, reporters and cameras in front of a podium, official setting"
+        },
+        {
+          "eyebrow": "Crimen organizado",
+          "title": "Dayonis Orozco llega a Chile: el hombre del Tren de Aragua imputado en el crimen de Ronald Ojeda",
+          "dek": "El venezolano fue extraditado desde Colombia y llegó esposado de pies y manos. Enfrenta cargos por el secuestro y homicidio del exmilitar Ojeda y el asesinato del mayor Sánchez.",
+          "more": "Orozco, alias 'Boti', había huido de Chile por Bolivia, Perú y Ecuador hasta que fue capturado en Popayán en 2024. Al llegar al aeropuerto chileno declaró 'Me van a matar'. La fiscalía Sur Metropolitana tramita un juicio oral contra 20 imputados vinculados al Tren de Aragua. Todos los acusados arriesgan presidio perpetuo. El caso Ojeda es uno de los más emblemáticos del crimen transnacional en Chile.",
+          "source": "https://www.biobiochile.cl/noticias/nacional/chile/2026/07/02/venezolano-dayonis-orozco-arriba-a-chile-para-ser-juzgado-por-crimenes-de-ronald-ojeda-y-un-carabinero.shtml",
+          "imgPrompt": "a handcuffed suspect in prison clothes being escorted by armed police officers on an airport tarmac at night, law enforcement operation Chile"
+        },
+        {
+          "eyebrow": "Judicial",
+          "title": "Contraloría dictamina que la exministra Steinert actuó ilegalmente al pedir datos a la PDI",
+          "dek": "La Contraloría concluyó que la exministra de Seguridad excedió sus atribuciones y violó el deber de abstención al solicitar información reservada sobre detectives en marzo.",
+          "more": "El 13 de marzo —dos días después de asumir el cargo— Steinert envió un oficio reservado a la PDI pidiendo la identificación completa de una brigada antidroga trasladada desde Tarapacá. La Contraloría estableció un conflicto de interés porque la exministra había trabajado con esa misma brigada como fiscal. La oposición evalúa presentar una acusación constitucional. El ministro del Interior Alvarado la respaldó: 'Todos los ministros podemos cometer un error'.",
+          "source": "https://www.biobiochile.cl/noticias/nacional/chile/2026/07/02/contraloria-concluye-que-exministra-steinert-actuo-de-manera-ilegal-al-solicitar-datros-a-la-pdi.shtml",
+          "imgPrompt": "the Contraloría General de la República building facade in Santiago Chile, official government architecture, daylight"
+        },
+        {
+          "eyebrow": "Cultura",
+          "title": "IND rechaza el Estadio Nacional para BTS: los tres recitales de octubre quedan en suspenso",
+          "dek": "El Instituto Nacional del Deporte negó el uso del coliseo central por el daño que el escenario de 360° causaría al pasto híbrido. Las entradas —agotadas en horas— permanecen vigentes.",
+          "more": "Los shows están programados para el 14, 16 y 17 de octubre. El IND propuso la explanada sur del estadio o el Estadio Bicentenario de La Florida como alternativas. La productora DG Medios no ha anunciado cambios de recinto ni proceso de devolución de entradas. Las fans chilenas (ARMY) atacaron en redes sociales a la ministra del Deporte Duco, exigiéndole claridad sobre la situación.",
+          "source": "https://www.biobiochile.cl/noticias/artes-y-cultura/musica/2026/07/02/se-cae-el-concierto-de-bts-en-chile-ind-no-autorizo-el-evento-en-el-estadio-nacional.shtml",
+          "imgPrompt": "a massive K-pop concert crowd holding purple light sticks in a large outdoor stadium at night, fan event atmosphere, aerial view"
+        }
+      ],
+      "briefs": [
+        {
+          "eyebrow": "Legislativo",
+          "title": "Megarreforma: Kast presiona por aprobación en julio mientras el Senado instala su mesa política",
+          "dek": "El Ejecutivo urge el avance del proyecto de reconstrucción económica antes de la semana regional. El plazo para presentar indicaciones vence el 6 de julio.",
+          "source": "https://radio.uchile.cl/2026/07/02/megarreforma-kast-apremia-avance-del-proyecto-mientras-mesa-politica-busca-acercar-posiciones/"
+        },
+        {
+          "eyebrow": "Derechos humanos",
+          "title": "Debate por indulto general a uniformados del 18-O: Kaiser emplaza a Kast y Ossandón firma el proyecto",
+          "dek": "El 51% rechaza el indulto general según Cadem. Chile Vamos pide revisión caso a caso, mientras Republicanos y el PNL impulsan la iniciativa en el Congreso.",
+          "source": "https://www.biobiochile.cl/noticias/nacional/chile/2026/07/02/kaiser-pnl-emplaza-a-kast-a-indultar-a-uniformados-tras-18-o-le-recordo-promesa-de-su-candidatura.shtml"
+        },
+        {
+          "eyebrow": "Seguridad",
+          "title": "El crimen del niño de 12 años en San Bernardo sigue marcando el debate político",
+          "dek": "El asesinato durante una encerrona en junio reavivó el pedido de militares en las calles. El alcalde de San Bernardo pide intervención preventiva de las FFAA en sectores tomados por el crimen organizado.",
+          "source": "https://www.biobiochile.cl/noticias/nacional/region-metropolitana/2026/06/23/delincuentes-matan-a-nino-de-12-anos-que-no-logro-escapar-de-encerrona-en-san-bernardo.shtml"
+        },
+        {
+          "eyebrow": "Legislativo",
+          "title": "Avanza proyecto que autoriza a militares a realizar controles de identidad",
+          "dek": "La iniciativa fue aprobada pese a los reparos de la oposición y se enmarca en los compromisos del gobierno para prorrogar el estado de excepción en la Macrozona Sur.",
+          "source": "https://www.biobiochile.cl/noticias/nacional/chile/2026/06/30/avanza-proyecto-que-autoriza-a-militares-a-realizar-controles-de-identidad-pese-a-reparos-de-oposicion.shtml"
+        },
+        {
+          "eyebrow": "Mundial 2026",
+          "title": "Esta noche: Argentina-Cabo Verde a las 19:00 y Colombia-Ghana a las 22:30 (hora Chile)",
+          "dek": "Dos duelos de los dieciseisavos de final con transmisión por TV paga. Ayer, Suiza eliminó a Argelia 2-0 y avanzó a octavos de final.",
+          "source": "https://www.meganoticias.cl/deportes/525894-partidos-de-hoy-miercoles-1-de-julio-del-mundial-2026-horarios-en-chile-y-datos-clave.html"
+        },
+        {
+          "eyebrow": "Pensiones",
+          "title": "Reforma de Uniformados en punto muerto: diferencias técnicas y políticas frenan la comisión mixta",
+          "dek": "Las divergencias entre el oficialismo y la oposición sobre los alcances de la reforma previsional para las FFAA y Carabineros impiden avanzar en el trámite legislativo.",
+          "source": "https://www.biobiochile.cl/noticias/nacional/chile/2026/07/02/ruf-siguen-en-puerto-muerto-diferencias-tecnicas-y-politicas-demoran-instalacion-de-comision-mixta.shtml"
+        }
+      ]
+    }
+  }
+}
