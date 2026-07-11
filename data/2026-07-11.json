@@ -1,0 +1,167 @@
+{
+  "date": "2026-07-11",
+  "dateLabel": "Sábado 11 de julio de 2026",
+  "edition": "011",
+  "sections": {
+    "intl": {
+      "label": "Internacional",
+      "wire": "world wire",
+      "notas": [
+        {
+          "eyebrow": "Medio Oriente",
+          "title": "Trump declara terminado el alto el fuego con Irán y exige a Teherán abrir Ormuz; canciller iraní viaja a Omán a negociar",
+          "dek": "El presidente estadounidense cerró formalmente la tregua que duró apenas semanas, mientras acepta que las conversaciones continúen. Irán insiste en que los barcos que crucen el estrecho deben pagar peajes a Teherán; EE.UU. exige una declaración pública de que la ruta está libre de ataques.",
+          "more": "El canciller iraní Abbas Araghchi voló este sábado a Omán —mediador clave en el conflicto— para intentar desbloquear el impasse sobre el estrecho. Una delegación de Catar, otro mediador, viajó también a Teherán. El crudo Brent se mantiene por encima de los 78 dólares por barril; por Ormuz transita cerca del 20% del petróleo y gas natural mundiales. Desde que la tregua se firmó en junio, ambas partes han violado sus términos: Irán atacó petroleros comerciales vinculados a Qatar y Arabia Saudita; EE.UU. respondió con bombardeos a instalaciones militares iraníes.",
+          "source": "https://www.elimparcial.com/mundo/2026/07/11/trump-mantiene-abiertas-las-conversaciones-con-iran-pero-da-por-terminado-el-alto-el-fuego-y-deja-al-estrecho-de-ormuz-bajo-riesgo-de-nuevos-ataques-y-presion-sobre-el-petroleo/",
+          "imgPrompt": "Iranian foreign minister arriving at Muscat airport in Oman for diplomatic talks, formal delegation, press photographers on tarmac, sunny daytime"
+        },
+        {
+          "eyebrow": "Asia-Pacífico",
+          "title": "El tifón Bavi paraliza el norte de Taiwán: 15 muertos en Filipinas, 920 vuelos cancelados y 27.000 hogares sin luz",
+          "dek": "El poderoso ciclón golpeó este sábado las islas del sur de Japón y barrió el norte de Taiwán con ráfagas de hasta 198 km/h. El gobierno taiwanés declaró feriado en casi toda la isla, cerró escuelas y oficinas, y evacuó a más de 14.000 personas de zonas costeras y montañosas.",
+          "more": "El puerto de Keelung fue de las zonas más afectadas, con 27.000 hogares sin electricidad. Los 920 vuelos internacionales y los 280 vuelos nacionales previstos para el sábado quedaron cancelados. El tifón, que llegó a tener vientos sostenidos de 184 km/h, se debilitó ligeramente antes de bordear la costa norte de Taiwán sin tocar tierra directamente. China se prepara para recibir el impacto en las próximas horas.",
+          "source": "https://www.infobae.com/america/mundo/2026/07/11/el-tifon-bavi-comenzo-a-golpear-las-islas-del-sur-de-japon-y-taiwan-mientras-china-se-prepara-para-el-impacto-de-las-tormentas/",
+          "imgPrompt": "Typhoon Bavi battering the northern coast of Taiwan with horizontal rain and violent winds, palm trees bending, flooded coastal road, dark dramatic storm clouds"
+        },
+        {
+          "eyebrow": "Ucrania",
+          "title": "Rusia lanza seis misiles Iskander sobre Kiev y la defensa antiaérea ucraniana no logra interceptar ninguno",
+          "dek": "En la madrugada del sábado, las fuerzas rusas golpearon instalaciones del complejo militar-industrial en Kiev con misiles balísticos de alta precisión. Las Fuerzas Aéreas de Ucrania confirmaron que el sistema de defensa no pudo derribar ninguno de los proyectiles, en uno de los ataques más penetrantes contra la capital.",
+          "more": "El Ministerio de Defensa ruso informó también que se atacó infraestructura portuaria en Odessa, Chernomorsk e Izmail, vinculada al suministro de armamento. Paralelamente, Ucrania afirma haber destruido 144 drones rusos en las 24 horas previas. La semana pasada, la cumbre de la OTAN en Ankara comprometió a EE.UU. a ceder a Kiev licencia para fabricar misiles Patriot; la mejora de la defensa aérea es ahora la prioridad más urgente de Zelensky.",
+          "source": "https://spanish.news-pravda.com/ukraine/2026/07/11/1012843.html",
+          "imgPrompt": "Night sky over Kyiv lit by missile explosion flashes and anti-aircraft tracer fire, dark city silhouette below, dramatic wartime scene"
+        },
+        {
+          "eyebrow": "Mundial 2026",
+          "title": "La Copa del Mundo cierra sus cuartos: Argentina-Suiza y Noruega-Inglaterra deciden hoy los cuatro semifinalistas",
+          "dek": "En la jornada doble decisiva de este sábado, Noruega —con Erling Haaland como figura— enfrenta a Inglaterra en Miami (17:00 h Chile), y Argentina busca revalidar su título ante Suiza en Kansas City (21:00 h Chile). Francia y España ya esperan rival en las semifinales del 14 y 15 de julio.",
+          "more": "Noruega eliminó a Brasil 2-1 en octavos con un doblete de Haaland; Inglaterra superó a México 3-2 con dos goles de Bellingham. Argentina remontó de 0-2 a 3-2 a Egipto en los últimos minutos con goles de Romero, Messi y Enzo Fernández. Suiza avanzó desde los penales contra Colombia. España ya se citó con Francia en semifinales tras vencer 2-1 a Bélgica con un gol de Merino a los 88 minutos.",
+          "source": "https://www.olympics.com/es/noticias/mundial-futbol-2026-en-vivo-partidos-hoy-resultados-sabado-11-julio",
+          "imgPrompt": "Erling Haaland celebrating a World Cup goal in Norway kit on one side and Lionel Messi warming up in Argentina jersey on the other, packed stadium floodlights, split composition"
+        },
+        {
+          "eyebrow": "Reino Unido",
+          "title": "Sin rivales dentro del laborismo, Andy Burnham se encamina a ser confirmado líder el 17 de julio y primer ministro el 20",
+          "dek": "El exalcalde de Mánchester, respaldado por el 80% de los diputados laboristas, no tiene hasta ahora ningún impugnador en la carrera para suceder a Keir Starmer. Si el plazo de nominaciones vence sin contrincantes, la conferencia especial del partido lo proclamará el viernes 17.",
+          "more": "Burnham propone un 'Número 10 del Norte' para descentralizar el poder desde Westminster hacia las regiones. Su modelo, al que llama 'manchesterismo', combina inversión pública y privada en transporte, vivienda e infraestructura. Planea mantener en sus cargos a buena parte del gabinete de Starmer, incluyendo a la canciller del Exchequer Rachel Reeves.",
+          "source": "https://www.latercera.com/mundo/noticia/andy-burnham-se-perfila-como-el-proximo-primer-ministro-britanico-tras-el-abrumador-respaldo-laborista/",
+          "imgPrompt": "Andy Burnham speaking at a large outdoor political rally in northern England, crowd of supporters, urban backdrop, overcast winter sky, press in front"
+        }
+      ],
+      "briefs": [
+        {
+          "eyebrow": "Energía",
+          "title": "El Brent supera los 78 dólares y el mercado petrolero aguarda el desenlace de Ormuz",
+          "dek": "Los mercados de materias primas mantienen el nerviosismo: el crudo sigue sin recuperar la normalidad mientras Irán y EE.UU. negocian la reapertura efectiva del estrecho. El precio del barril cayó desde el máximo de 120 dólares registrado durante la guerra, pero se resiste a bajar de 78.",
+          "source": "https://www.elespectador.com/economia/el-estrecho-de-ormuz-cuatro-meses-que-sacudieron-el-mercado-petrolero/"
+        },
+        {
+          "eyebrow": "Gaza",
+          "title": "Nuevos bombardeos israelíes dejan al menos seis muertos en Gaza pese al alto el fuego vigente desde octubre",
+          "dek": "Las acciones militares israelíes continuaron este sábado en la Franja, elevando a más de 1.072 las víctimas desde que comenzó la tregua. Israel controla ya el 70% del territorio de Gaza desde el inicio del cese del fuego.",
+          "source": "https://www.aljazeera.com/news/2026/7/9/israeli-attacks-on-gaza-kill-10-people-in-24-hours-despite-ceasefire"
+        },
+        {
+          "eyebrow": "Deportes",
+          "title": "España se cita con Francia en semifinales del Mundial el 14 de julio en Dallas",
+          "dek": "La campeona de Europa derrotó 2-1 a Bélgica con un gol de Mikel Merino en el minuto 88. Fabián Ruiz había adelantado a los 30 y De Ketelaere igualó a los 41. El duelo España-Francia en el AT&T Stadium se perfila como el partido del torneo.",
+          "source": "https://es-us.noticias.yahoo.com/deportes/espana-jugara-semifinales-del-mundial-contra-francia-tras-vencer-a-belgica-2-1-210818398.html"
+        },
+        {
+          "eyebrow": "Rusia",
+          "title": "La crisis de combustible en Rusia se prolonga; el racionamiento se extiende a nuevas regiones",
+          "dek": "Los ataques ucranianos de la semana pasada contra refinerías y buques cisterna rusos siguen sin poder ser revertidos. Colas de varios días se registran en estaciones de servicio de decenas de regiones rusas, afectando a más de 50 millones de personas.",
+          "source": "https://www.infobae.com/america/mundo/2026/07/09/los-ataques-ucranianos-con-drones-dejan-a-rusia-con-una-crisis-de-combustible-que-afecta-a-mas-de-50-millones-de-personas/"
+        },
+        {
+          "eyebrow": "Diplomacia",
+          "title": "Catar llega a Teherán como mediador para ampliar los canales de negociación por Ormuz",
+          "dek": "Una delegación qatarí aterrizó este viernes en Irán para reforzar los esfuerzos de mediación. Doha ha sido el canal diplomático clave entre Washington y Teherán durante toda la crisis del estrecho.",
+          "source": "https://www.al-monitor.com/originals/2026/07/trump-says-us-iran-agree-continue-talks-ceasefire-over"
+        },
+        {
+          "eyebrow": "Tecnología",
+          "title": "Dron eléctrico alemán logra récord no oficial de velocidad para aeronaves no tripuladas a batería: 699 km/h",
+          "dek": "La empresa Quantum Systems Group batió la marca con su prototipo Apex Recordhunter, avance que se produce en un momento en que los drones redefinen los conflictos armados y la logística industrial.",
+          "source": "https://spanish.news-pravda.com/world/2026/07/11/1012825.html"
+        }
+      ]
+    },
+    "chile": {
+      "label": "Chile",
+      "wire": "santiago wire",
+      "notas": [
+        {
+          "eyebrow": "Meteorología",
+          "title": "Advierten temporal histórico para la próxima semana: hasta 150 mm de lluvia en Santiago, un tercio de la cuota anual",
+          "dek": "Un potente sistema frontal con río atmosférico llegará entre el 16 y el 19 de julio a la zona central con ráfagas de 40 a 50 km/h. Las autoridades instan a usar este fin de semana —en que Santiago está despejado— para revisar techos, limpiar canaletas y cargar linternas de emergencia.",
+          "more": "Santiago recibe en promedio menos de 300 mm de lluvia al año; si se acumulan 150 mm en tres días, el evento sería uno de los más intensos de la última década para la capital. Senapred prepara alertas preventivas para varias comunas de la Región Metropolitana y de Valparaíso. Se prevén también cortes de luz por los vientos y riesgo de socavones en sectores con infraestructura deficiente.",
+          "source": "https://www.concierto.cl/2026/07/adios-al-escudo-antilluvias-un-potente-e-intenso-sistema-frontal-se-pronostica-para-santiago-a-partir-de-estos-dias/",
+          "imgPrompt": "Santiago resident cleaning roof drainage gutters on a clear winter day, Andean mountains visible in the background, blue sky, preparing for incoming storm"
+        },
+        {
+          "eyebrow": "Congreso",
+          "title": "El gobierno presenta indicaciones clave a la Ley Miscelánea para evitar el Tribunal Constitucional antes del voto del 15 de julio",
+          "dek": "El Ejecutivo formalizó cambios a los artículos sobre resoluciones de calificación ambiental e invariabilidad tributaria —los dos puntos que el Socialismo Democrático amenaza con impugnar ante el TC—. La Comisión de Hacienda del Senado tiene hasta el miércoles para despachar el texto al pleno.",
+          "more": "La iniciativa agrupa más de 40 medidas para reconstruir viviendas destruidas por incendios y reactivar la inversión, incluyendo la reducción del impuesto corporativo al 22% y mejoras en los plazos para las RCA. Analistas estiman que hasta 12 artículos podrían perder votaciones en el pleno. El gobierno necesita la ley antes del 15 de julio para cumplir sus compromisos legislativos del primer semestre.",
+          "source": "https://www.df.cl/economia-y-politica/macro/ejecutivo-ingresa-primeras-indicaciones-a-la-ley-miscelanea-en-el-senado",
+          "imgPrompt": "Chilean government minister arriving at the Senate building in Valparaíso for legislative session, formal suit, press photographers, classical architecture facade, winter daytime"
+        },
+        {
+          "eyebrow": "Economía",
+          "title": "Cinco Imacec en rojo: Chile roza la recesión técnica y el Banco Central prepara su reunión de julio",
+          "dek": "El país acumula cinco caídas mensuales consecutivas de actividad económica —el ciclo más largo desde 2009— con desempleo en 9,4%. El Banco Central se reúne el 27 y 28 de julio para decidir si recorta la tasa o la mantiene en 4,5% para estimular la actividad.",
+          "more": "BICE Inversiones rebajó su proyección de crecimiento del PIB 2026 a 1,3%. El ministro de Hacienda insiste en que el Imacec de junio mostrará un giro positivo, pero los analistas son más cautos. La crisis en el estrecho de Ormuz presiona la inflación —que ronda el 3,9%— y debilita el peso: el dólar cerró el viernes en torno a $924. El sondeo Cadem marca que la economía desplazó a la seguridad como la primera preocupación ciudadana.",
+          "source": "https://www.latercera.com/pulso/noticia/imacec-negativo-mayo-2026-recesion-tecnica/",
+          "imgPrompt": "Empty commercial street in downtown Santiago Chile during winter with shuttered storefronts and very few pedestrians, overcast gray sky, economic stagnation atmosphere"
+        },
+        {
+          "eyebrow": "Medio ambiente",
+          "title": "Alerta ambiental en Santiago este sábado: el invierno acumula una cadena de episodios de contaminación casi sin pausa",
+          "dek": "La Región Metropolitana amanece nuevamente bajo estado de Alerta por acumulación de contaminantes, con prohibición de calefactores a leña y restricción vehicular permanente en toda la provincia de Santiago, San Bernardo y Puente Alto.",
+          "more": "Las estaciones de El Bosque, Cerrillos y Parque O'Higgins marcan los índices más elevados. La restricción vehicular rige de 07:30 a 21:00 horas. La inversión térmica persistente en la cuenca de Santiago, combinada con el uso de leña para calefacción residencial, ha generado alertas y preemergencias casi sin interrupción desde el inicio de junio, haciendo del invierno 2026 uno de los más contaminados en años.",
+          "source": "https://airerm.mma.gob.cl/alerta-ambiental-tendra-este-viernes-10-de-julio-la-region-metropolitana/",
+          "imgPrompt": "Heavy brown smog layer covering Santiago Chile seen from Cerro San Cristóbal, apartment buildings barely visible through thick winter haze, no wind, gray atmosphere"
+        }
+      ],
+      "briefs": [
+        {
+          "eyebrow": "Mercados",
+          "title": "El peso cerró la semana en $924 por dólar con leve apreciación pese a la presión del petróleo caro",
+          "dek": "La moneda chilena tuvo una recuperación marginal al cierre del viernes, impulsada por el cobre, aunque la persistencia del crudo elevado por la crisis en Ormuz limita los márgenes de mejora.",
+          "source": "https://www.infobae.com/noticias/2026/07/10/dolar-hoy-en-chile-cotizacion-de-cierre-del-10-de-julio/"
+        },
+        {
+          "eyebrow": "Diplomacia",
+          "title": "Bachelet continúa su gira asiática en busca de respaldos para la secretaría general de la ONU",
+          "dek": "La expresidenta chilena acumula votos en Asia para su candidatura al máximo cargo de las Naciones Unidas. El proceso de selección, que se define a fin de año, la tendría como la primera latinoamericana en ocupar el puesto.",
+          "source": "https://www.biobiochile.cl/noticias/nacional/chile/2026/07/07/bachelet-se-baja-de-ceremonia-convocada-por-kast-estara-de-viaje-por-candidatura-a-la-onu.shtml"
+        },
+        {
+          "eyebrow": "Seguridad",
+          "title": "Gobierno activa plan de intervención en 50 barrios críticos con copamiento policial y operativos antinarcos",
+          "dek": "El Consejo Nacional de Seguridad Pública aprobó un programa de intervención barrial intensiva que desplegará Carabineros y la PDI en las zonas con mayor incidencia delictual, en coordinación con municipios y el Ministerio Público.",
+          "source": "https://www.24horas.cl/actualidad/nacional/compromiso-de-santiago-canciller-crimen-organizado"
+        },
+        {
+          "eyebrow": "Mundial 2026",
+          "title": "Cuartos de final en Chile: Noruega-Inglaterra a las 17:00 h y Argentina-Suiza a las 21:00 h",
+          "dek": "Ambos partidos se ven por señal de cable. El ganador del cruce de Miami enfrentará a Francia en semifinales; el ganador de Kansas City jugará contra España el 15 de julio en Nueva York.",
+          "source": "https://www.clarosports.com/futbol/mundial-2026/cuartos-de-final-del-mundial-2026-al-momento-resultados-y-equipos-clasificados-hoy/"
+        },
+        {
+          "eyebrow": "Sistema frontal",
+          "title": "La Araucanía y el Biobío recuperan suministro eléctrico tras el paso del sistema frontal que afectó el centro-sur",
+          "dek": "Los equipos de distribución trabajan en la reposición del servicio en las regiones más afectadas. Molina, en el Maule, avanza en la reparación de viviendas dañadas y la apertura de rutas que el sistema frontal dejó interrumpidas.",
+          "source": "https://www.biobiochile.cl/noticias/nacional/chile/2026/07/10/balance-por-sistema-frontal-alerta-roja-en-molina-socavones-y-rutas-interrumpidas-en-el-centro-sur.shtml"
+        },
+        {
+          "eyebrow": "Política",
+          "title": "Encuesta Cadem: la economía desplaza a la seguridad como primera preocupación y la aprobación de Kast baja",
+          "dek": "El sondeo semanal muestra que el quinto Imacec negativo y el desempleo en 9,4% erosionan la imagen del gobierno; es la primera vez que la economía supera a la seguridad como principal preocupación en meses.",
+          "source": "https://www.emol.com/noticias/Nacional/2026/07/02/1204540/encuesta-cadem-kast.html"
+        }
+      ]
+    }
+  }
+}
