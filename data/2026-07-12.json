@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-12",
+  "dateLabel": "Domingo 12 de julio de 2026",
+  "edition": "012",
+  "sections": {
+    "intl": {
+      "label": "Internacional",
+      "wire": "world wire",
+      "notas": [
+        {
+          "eyebrow": "Conflicto Medio Oriente",
+          "title": "EE.UU. reanuda bombardeos sobre Irán mientras el estrecho de Ormuz permanece cerrado",
+          "dek": "Washington lanzó una nueva ronda de ataques contra decenas de objetivos militares iraníes; Teherán declaró el estrecho cerrado \"hasta nuevo aviso\".",
+          "more": "El conflicto lleva 130 días desde la Operación Furia Épica. El alto el fuego colapsó tras un ataque iraní contra un carguero chipriota en el estrecho. La Guardia Revolucionaria respondió a los bombardeos atacando bases de EE.UU. en Bahréin, Kuwait, Qatar y la base jordana Príncipe Hassan con misiles y drones. El precio del crudo Brent supera los 100 dólares el barril. Pakistán y Qatar trabajan entre bastidores para retomar las negociaciones.",
+          "source": "https://cnnespanol.cnn.com/2026/07/12/mundo/live-news/reanudan-ataques-guerra-ee-uu-iran-vivo-2-trax",
+          "imgPrompt": "US Navy warship in the Persian Gulf at dusk, smoke rising from an oil facility on the horizon, tense military scene"
+        },
+        {
+          "eyebrow": "Mundial 2026",
+          "title": "Francia, España, Inglaterra y Argentina van a las semifinales del Mundial",
+          "dek": "Los cuartos de final completaron el cuadro: Francia–España el martes 14 en Dallas y Argentina–Inglaterra el miércoles 15 en Atlanta.",
+          "more": "Francia venció 2-0 a Marruecos con goles de Mbappé y Dembélé. España superó 2-1 a Bélgica con un gol agónico de Mikel Merino en Los Ángeles. Inglaterra derrotó 2-1 a Noruega con doblete de Bellingham en los alargues. Argentina se impuso 3-1 a Suiza con goles de Mac Allister, Julián Álvarez y Lautaro Martínez. La gran final está fijada para el domingo 19 de julio.",
+          "source": "https://www.lanacion.com.ar/deportes/futbol/asi-quedo-el-cuadro-de-semifinales-del-mundial-2026-nid11072026/",
+          "imgPrompt": "Argentina football players in white and light blue jerseys celebrating a goal inside a massive packed US stadium at night, World Cup 2026 banners overhead"
+        },
+        {
+          "eyebrow": "Guerra en Ucrania",
+          "title": "Rusia bombardea puertos, energía e infraestructura militar de Ucrania con misiles y drones",
+          "dek": "Los ataques de la madrugada alcanzaron instalaciones portuarias en Odesa y Chernomorsk, además de depósitos de armas y nodos de transporte.",
+          "more": "Los bombardeos también afectaron las regiones de Sumy, Járkov, Zaporiyia, Dnipropetrovsk y Jersón. Los ataques del sábado dejaron al menos siete muertos y decenas de heridos en varias ciudades ucranianas. La defensa aérea rusa, por su parte, interceptó 585 drones ucranianos en las últimas 24 horas.",
+          "source": "https://www.france24.com/es/europa/20260711-ataques-rusos-con-misiles-y-drones-dejan-al-menos-siete-muertos-y-decenas-de-heridos-en-ucrania",
+          "imgPrompt": "Ukrainian emergency workers and firefighters amid burning ruins of a port warehouse at night, smoke and orange flames illuminating the scene"
+        },
+        {
+          "eyebrow": "América Latina",
+          "title": "EE.UU. y 12 países exigen a Petro respetar la transición democrática en Colombia",
+          "dek": "El Escudo de las Américas rechazó los cuestionamientos del presidente saliente a la victoria electoral del presidente electo De la Espriella.",
+          "more": "De la Espriella ganó la segunda vuelta del 21 de junio con cerca del 52% de los votos. Petro cuestionó a las autoridades electorales, y el comunicado multinacional rechazó cualquier acción que busque desacreditar los resultados u obstaculizar el traspaso de mando. Petro se comprometió ante el presidente brasileño Lula a dejar el poder el 6 de agosto.",
+          "source": "https://www.biobiochile.cl/noticias/internacional/america-latina/2026/07/10/chile-y-12-paises-del-escudo-de-las-americas-exigen-respeto-a-los-resultados-electorales-en-colombia.shtml",
+          "imgPrompt": "the Colombian presidential palace Casa de Nariño in Bogotá with the Colombian tricolor flag, official government building, daylight"
+        },
+        {
+          "eyebrow": "Defensa",
+          "title": "La OTAN cerró la cumbre de Ankara con 50.000 millones en contratos y un paquete récord de ayuda a Ucrania",
+          "dek": "Los aliados comprometieron 70.000 millones de euros en apoyo militar a Kiev y fijaron el 5% del PIB como nuevo objetivo de gasto en defensa.",
+          "more": "La cumbre del 7 y 8 de julio en Ankara fue presidida por Erdogan, quien la calificó de \"éxito histórico\". Trump autorizó a Ucrania a fabricar sus propios misiles Patriot. La declaración final calificó a China como apoyo activo al esfuerzo bélico ruso, un giro retórico sin precedentes de la Alianza.",
+          "source": "https://www.trtespanol.com/article/ad6b5fb90621",
+          "imgPrompt": "NATO heads of government lined up for the official group photo at the Ankara summit, NATO flag and Turkish flags in background, grand hall"
+        },
+        {
+          "eyebrow": "Seguridad",
+          "title": "Argentina captura en Buenos Aires a un narcotraficante mexicano buscado por Interpol y EE.UU.",
+          "dek": "Rodolfo Junior Aguirre Covarrubias fue detenido en un hotel de Puerto Madero el sábado por agentes de la SIDE y la Policía Federal Argentina.",
+          "more": "Aguirre, de 48 años, tenía ficha roja de Interpol por tráfico de más de 10 kilogramos de cocaína y era requerido por la Corte del Distrito Norte de Illinois. Ingresó a Argentina el 8 de julio desde México y fue localizado mediante tareas de inteligencia. Ahora enfrenta un proceso de extradición a Estados Unidos.",
+          "source": "https://www.lanacion.com.ar/seguridad/un-peligroso-narco-mexicano-fue-atrapado-por-agentes-de-la-side-y-la-pfa-en-un-hotel-de-puerto-nid11072026/",
+          "imgPrompt": "Argentine federal police officers in tactical gear standing outside a luxury hotel in Puerto Madero Buenos Aires, arrest operation at night"
+        }
+      ],
+      "briefs": [
+        {
+          "eyebrow": "Energía",
+          "title": "El cierre de Ormuz mantiene el crudo sobre los 100 dólares y sacude los mercados globales",
+          "dek": "Los mercados energéticos mundiales siguen bajo tensión ante la incertidumbre sobre el tránsito marítimo en el estratégico estrecho.",
+          "source": "https://www.trtespanol.com/article/caedccf2d0c6"
+        },
+        {
+          "eyebrow": "Diplomacia",
+          "title": "Qatar y Pakistán trabajan para restaurar el diálogo entre EE.UU. e Irán tras el colapso del cese al fuego",
+          "dek": "Ambos países actúan como mediadores para relanzar las conversaciones luego de que los nuevos bombardeos echaran por tierra el alto el fuego previo.",
+          "source": "https://www.univision.com/noticias/mundo/ultimas-noticias-y-guerra-con-iran-en-vivo-trump-termina-la-tregua-con-iran-tras-los-ataques-en-la-region-8-de-julio-2026"
+        },
+        {
+          "eyebrow": "Conflicto",
+          "title": "La Guardia Revolucionaria iraní ataca con misiles y drones bases de EE.UU. en Bahréin, Kuwait y Qatar",
+          "dek": "Las represalias iraníes siguieron al reinicio de los bombardeos estadounidenses sobre más de 140 objetivos en territorio iraní.",
+          "source": "https://cnnespanol.cnn.com/2026/07/09/mundo/live-news/nuevos-ataques-iran-eeuu-vivo-trax"
+        },
+        {
+          "eyebrow": "Mundial 2026",
+          "title": "Francia–España e Inglaterra–Argentina, los duelos que definirán al finalista del Mundial",
+          "dek": "Las semifinales se juegan el martes 14 en Dallas y el miércoles 15 en Atlanta; la gran final del 19 de julio ya tiene cuatro candidatos.",
+          "source": "https://www.clarosports.com/futbol/mundial-2026/semifinales-del-mundial-2026-al-momento-resultados-equipos-clasificados-de-hoy-y-cruces/"
+        },
+        {
+          "eyebrow": "Geopolítica",
+          "title": "La OTAN declaró por primera vez que China apoya activamente el esfuerzo bélico ruso en Ucrania",
+          "dek": "La declaración final de Ankara marca un endurecimiento sin precedentes de la Alianza hacia Pekín, que hasta ahora evitaba esa caracterización.",
+          "source": "https://www.prensa-latina.cu/2026/07/08/otan-publica-declaracion-final-de-la-cumbre-de-ankara/"
+        },
+        {
+          "eyebrow": "Defensa",
+          "title": "Trump autoriza a Ucrania a fabricar misiles Patriot propios en una decisión histórica de la cumbre OTAN",
+          "dek": "Los Patriot son clave para interceptar misiles balísticos rusos; producirlos localmente reducirá la dependencia de Kiev de los suministros occidentales.",
+          "source": "https://www.france24.com/es/europa/20260707-cumbre-de-la-otan-abre-en-ankara-marcada-por-aumento-del-gasto-militar-en-claro-gui%C3%B1o-a-exigencias-de-trump"
+        }
+      ]
+    },
+    "chile": {
+      "label": "Chile",
+      "wire": "santiago wire",
+      "notas": [
+        {
+          "eyebrow": "Legislativo",
+          "title": "Kast endurece el tono: \"Chile no puede seguir esperando\" antes de la votación del 15 de julio",
+          "dek": "El presidente presiona al Congreso para que despache su reforma económica estrella antes del receso; la votación definitiva en el Senado es el miércoles.",
+          "more": "La Ley de Reconstrucción Nacional rebaja el impuesto a las empresas del 27% al 23%, elimina las contribuciones de la vivienda principal para adultos mayores y busca reactivar zonas golpeadas por los incendios de Ñuble, Biobío y Valparaíso. El proyecto fue aprobado en general el 24 de junio con estrecho margen. El sábado, Kast defendió la iniciativa ante el Consejo General del Partido Republicano, criticó el ritmo legislativo y llamó a ampliar los acuerdos.",
+          "source": "https://www.df.cl/economia-y-politica/pais/kast-endurece-el-tono-por-la-demora-del-proyecto-de-reconstruccion-y",
+          "imgPrompt": "Chilean president speaking at a podium with the Chilean flag and La Moneda palace in the background, official press conference"
+        },
+        {
+          "eyebrow": "Medio Ambiente",
+          "title": "Santiago amanece con otra alerta ambiental: semana completa de restricciones en la Región Metropolitana",
+          "dek": "Las desfavorables condiciones de ventilación motivaron la declaración de alerta para este domingo, la sexta en lo que va de julio en la RM.",
+          "more": "La Dirección Meteorológica de Chile pronostica un régimen anticiclónico debilitado y sin advección costera, lo que puede favorecer la acumulación de contaminantes. Hoy no rige restricción vehicular por ser día no hábil, pero se mantiene en toda la Región Metropolitana la prohibición de usar estufas a leña y sus derivados, fiscalizada por la SEREMI de Salud y Carabineros.",
+          "source": "https://www.biobiochile.cl/noticias/nacional/region-metropolitana/2026/07/12/declaran-alerta-ambiental-para-este-domingo-en-la-rm-por-malas-condiciones-de-ventilacion.shtml",
+          "imgPrompt": "aerial view of Santiago Chile on a winter morning with a thick brown smog layer over the basin and snow-capped Andes mountains in the background"
+        },
+        {
+          "eyebrow": "Consular",
+          "title": "Madre e hija chilenas se reencuentran en Argentina tras búsqueda que cruzó tres países",
+          "dek": "La niña Magnolia, de 2 años, fue hallada sana y salva en Resistencia, Argentina, luego de que su padre la sustrajera de Paraguay sin autorización.",
+          "more": "El padre, Francisco Bustos, compró pasajes para cruzar a la provincia argentina de Mendoza cuando fue detectado por las cámaras de seguridad de la terminal de autobuses de Resistencia. Las autoridades argentinas lo detuvieron y la menor quedó bajo el cuidado de su madre. Bustos enfrenta cargos por desacato y frustración de la persecución penal ante la justicia paraguaya.",
+          "source": "https://www.cooperativa.cl/noticias/pais/relaciones-exteriores/chilenos-en-el-exterior/en-argentina-fue-hallada-nina-chilena-que-era-buscada-en-paraguay-tras/2026-07-10/230728.html",
+          "imgPrompt": "mother holding and embracing a small toddler at a bus terminal in Argentina, emotional reunion, warm indoor lighting"
+        },
+        {
+          "eyebrow": "Política",
+          "title": "Kast llega a su aprobación más baja: 35% de respaldo con la economía como principal fuente de descontento",
+          "dek": "Dos encuestas coinciden en que la percepción negativa del mandatario supera el 60%, arrastrada por el desempleo y cinco meses seguidos de caída en la actividad.",
+          "more": "El gobierno acumula un Imacec de –0,9% en mayo, un PIB que retrocedió 0,5% en el primer trimestre y una tasa de desempleo de 9,4%. El Ejecutivo apuesta a que la aprobación del proyecto de Reconstrucción —que se vota el 15 de julio en el Senado— cambie las expectativas económicas antes de fin de año.",
+          "source": "https://reporte24.com.ar/2026/07/11/chile-jose-antonio-kast-busca-una-reforma-economica-en-medio-de-la-desacreditacion-a-su-gestion/",
+          "imgPrompt": "protesters with banners outside La Moneda government palace in Santiago Chile, overcast winter sky, gray urban scene"
+        }
+      ],
+      "briefs": [
+        {
+          "eyebrow": "Economía",
+          "title": "Desempleo en Chile llega a 9,4%, el nivel más alto en cinco años",
+          "dek": "La débil demanda laboral acompaña cinco meses consecutivos de contracción en la actividad económica del país.",
+          "source": "https://www.expreso.ec/internacional/desempleo-chile-trepa-9-4-kast-reconoce-crisis-desempleo-record-caida-economia-287751.html"
+        },
+        {
+          "eyebrow": "Política exterior",
+          "title": "Chile firma junto a EE.UU. y 12 naciones el llamado a una transición pacífica del poder en Colombia",
+          "dek": "El gobierno de Kast respaldó el comunicado del Escudo de las Américas que rechaza los cuestionamientos de Petro a los resultados electorales.",
+          "source": "https://www.cooperativa.cl/noticias/mundo/colombia/chile-y-el-resto-del-escudo-de-las-americas-exigieron-una-transicion/2026-07-11/000311.html"
+        },
+        {
+          "eyebrow": "Sismología",
+          "title": "Chile registró varios sismos en las últimas 24 horas, el mayor de magnitud 4,5",
+          "dek": "Los movimientos fueron reportados por el Centro Sismológico Nacional sin daños ni víctimas en ninguna zona del país.",
+          "source": "https://elcomercio.pe/respuestas/chile/temblor-en-chile-hoy-en-vivo-ultimos-sismos-11-y-12-de-julio-2026-magnitud-epicentro-profundidad-y-hora-reportados-centro-sismologico-nacional-santiago-socaire-lbposting-noticia/"
+        },
+        {
+          "eyebrow": "Medio Ambiente",
+          "title": "Sin restricción vehicular este domingo pese a la alerta ambiental en Santiago",
+          "dek": "Por ser día no hábil, los autos quedan exentos de la restricción de patente; rige en cambio la prohibición de usar estufas a leña en toda la RM.",
+          "source": "https://www.t13.cl/noticia/nacional/declaran-alerta-ambiental-rm-para-este-domingo-estas-son-las-restricciones-12-7-2026"
+        },
+        {
+          "eyebrow": "Congreso",
+          "title": "El Senado fijó para el 15 de julio la votación definitiva de la Ley de Reconstrucción Nacional",
+          "dek": "El proyecto deberá superar la misma resistencia legislativa que en la votación en general, cuando pasó por estrecho margen.",
+          "source": "http://www.tiempodesanjuan.com/chile/el-senado-de-chile-fijo-para-el-15-de-julio-la-votacion-final-de-la-reforma-impulsada-por-kast_1783458630"
+        },
+        {
+          "eyebrow": "Energía",
+          "title": "La crisis de Ormuz mantiene el petróleo sobre los 100 dólares y presiona los precios de los combustibles en Chile",
+          "dek": "Chile importa casi la totalidad del crudo que consume; el alza sostenida del Brent amenaza con nuevos ajustes en bencinas y diésel.",
+          "source": "https://www.trtespanol.com/article/caedccf2d0c6"
+        }
+      ]
+    }
+  }
+}
