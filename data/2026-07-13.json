@@ -1,0 +1,161 @@
+{
+  "date": "2026-07-13",
+  "dateLabel": "Lunes 13 de julio de 2026",
+  "edition": "013",
+  "sections": {
+    "intl": {
+      "label": "Internacional",
+      "wire": "world wire",
+      "notas": [
+        {
+          "eyebrow": "Ucrania",
+          "title": "Macron y Zelenski reúnen a 25 líderes en París para reforzar el apoyo militar a Ucrania",
+          "dek": "La Coalición de los Voluntarios —37 países— sesionó en el Hotel des Invalides para coordinar defensa aérea, producción de armas dentro de Ucrania y nuevas medidas de presión sobre Rusia.",
+          "more": "El encuentro, codirigido con el Reino Unido, coincide con la víspera del Día Nacional francés: Zelenski asistirá mañana al desfile en los Campos Elíseos. La presidencia francesa lo describió como un momento de 'renovada convergencia y unidad transatlántica' frente a Moscú. Los líderes también impulsaron un nuevo paquete europeo de sanciones y medidas contra la 'flota fantasma' rusa que elude restricciones internacionales.",
+          "source": "https://www.infobae.com/america/mundo/2026/07/13/zelensky-se-reune-en-paris-con-la-coalicion-de-los-voluntarios-para-reforzar-la-asistencia-a-ucrania-y-aumentar-la-presion-sobre-rusia/",
+          "imgPrompt": "world leaders in formal attire at a summit inside the gilded Hôtel des Invalides in Paris, Ukrainian and French flags, chandeliers, wide shot, daylight"
+        },
+        {
+          "eyebrow": "Mundial 2026",
+          "title": "El Mundial llega a semis: Francia–España el martes y Argentina–Inglaterra el miércoles",
+          "dek": "Las dos últimas campeonas del mundo se miden en Arlington, Texas; Argentina busca su tercer título ante una selección inglesa que sueña con la gloria en Atlanta.",
+          "more": "España avanzó tras vencer 2-1 a Bélgica con gol de Mikel Merino; Francia eliminó 2-0 a Marruecos con doblete de Mbappé y Dembélé. Argentina sufrió ante Suiza pero ganó 3-1 en tiempo extra con un golazo de Julián Álvarez que puede pelear al mejor del torneo. El alcalde de Niza pidió a la FIFA un minuto de silencio antes del choque Francia–España en homenaje a las 86 víctimas del atentado del 14 de julio de 2016.",
+          "source": "https://www.prensalibre.com/deportes/futbol-internacional/mundial-2026-fechas-horarios-y-sedes-de-las-semifinales-entre-argentina-inglaterra-francia-y-espana-breaking/",
+          "imgPrompt": "packed World Cup stadium in Arlington Texas at night, fans wearing French and Spanish jerseys, flags and confetti, floodlights, vivid colors"
+        },
+        {
+          "eyebrow": "Seguridad regional",
+          "title": "Taiwán lanza hoy cinco días de maniobras militares conjuntas sin precedente ante la presión de China",
+          "dek": "Los ejercicios, del 13 al 17 de julio, simulan una invasión y enfatizan la descentralización del mando para acercarse lo más posible a un escenario de conflicto real.",
+          "more": "El mes pasado, el Ministerio de Defensa taiwanés contabilizó más de 200 buques de guerra chinos y otras 111 embarcaciones gubernamentales en las inmediaciones de la isla. Simultáneamente, China y Rusia realizan los ejercicios navales conjuntos 'Joint Sea-2026' en el Mar Amarillo, seguidos de una patrulla en el Pacífico.",
+          "source": "https://www.infobae.com/america/agencias/2026/07/09/taiwan-llevara-a-cabo-5-dias-de-maniobras-de-defensa-conjunta-ante-la-presion-de-china/",
+          "imgPrompt": "Taiwanese naval warships and fighter jets in tight formation over the Pacific Ocean during joint military exercises, overcast sky, dramatic angle"
+        },
+        {
+          "eyebrow": "Tragedia",
+          "title": "Al menos 27 muertos en el incendio de un bar de Bangkok que atrapó a los clientes sin salida",
+          "dek": "El siniestro estalló en el barrio Ladprao a la madrugada del domingo; el fuego y el humo cortaron la única salida y empujaron a los clientes hacia baños sin escape.",
+          "more": "El primer ministro tailandés señaló que un cortocircuito cerca del escenario causó una explosión inicial y un corte de luz. Las autoridades hallaron la ruta de evacuación bloqueada por mesas y decoraciones. Más de 22 personas permanecen en estado crítico entre los 63 hospitalizados; las autoridades trabajan en la identificación de víctimas.",
+          "source": "https://www.infobae.com/america/agencias/2026/07/12/al-menos-27-muertos-en-un-incendio-en-un-bar-de-bangkok/",
+          "imgPrompt": "firefighters in orange gear battling a large fire at a nightclub in Bangkok, thick smoke and emergency vehicle lights, night scene, street"
+        },
+        {
+          "eyebrow": "Corrupción",
+          "title": "Irak detiene a 47 políticos en la mayor redada anticorrupción desde la caída de Sadam Husein",
+          "dek": "La operación en Bagdad incautó 57 millones de dólares en efectivo y 27 kilos de oro puro hallados en domicilios de los detenidos, incluida ropa interior fabricada en ese metal.",
+          "more": "Entre los arrestados figura Muthanna al Samarrai, principal coordinador de los bloques sunitas del país. Las detenciones se basaron en confesiones del viceministro de Petróleo, también detenido. La redada alcanzó a siete parlamentarios, directores ministeriales y funcionarios estratégicos del Estado iraquí.",
+          "source": "https://aristeguinoticias.com/2806/mundo/irak-detiene-a-decenas-de-politicos-en-una-amplia-redada-anticorrupcion/",
+          "imgPrompt": "Iraqi security forces escorting detained government officials outside a fortified compound in Baghdad, daytime, press cameras in background"
+        }
+      ],
+      "briefs": [
+        {
+          "eyebrow": "Diplomacia",
+          "title": "Los cancilleres de la UE debaten nuevas sanciones contra Rusia por la invasión de Ucrania",
+          "dek": "El Consejo de Asuntos Exteriores sesiona este lunes para acordar medidas que intensifiquen la presión sobre Moscú, incluyendo restricciones a la 'flota fantasma' que elude los topes al petróleo ruso.",
+          "source": "https://www.infobae.com/america/agencias/2026/07/13/temas-del-dia-de-efe-internacional-del-lunes-13-de-julio-de-2026-0730-gmt/"
+        },
+        {
+          "eyebrow": "Memoria",
+          "title": "Francia abre los actos del décimo aniversario del atentado yihadista de Niza con una marcha silenciosa",
+          "dek": "El 14 de julio de 2016, un camión embistió a la multitud en el Paseo de los Ingleses y mató a 86 personas; la ceremonia principal con Macron será mañana martes a las 18:15.",
+          "source": "https://www.france24.com/es/europa/20260712-una-marcha-silenciosa-abre-los-homenajes-por-los-diez-a%C3%B1os-del-atentado-yihadista-de-niza"
+        },
+        {
+          "eyebrow": "Derechos",
+          "title": "Botsuana lleva a los tribunales la demanda de dos mujeres que reclaman el derecho a casarse",
+          "dek": "Si la sentencia les da la razón, el país se convertiría en el segundo de África en legalizar el matrimonio entre personas del mismo sexo.",
+          "source": "https://www.infobae.com/america/agencias/2026/07/13/temas-del-dia-de-efe-internacional-del-lunes-13-de-julio-de-2026-0730-gmt/"
+        },
+        {
+          "eyebrow": "Mundial 2026",
+          "title": "Argentina venció a Suiza 3-1 en tiempo extra y espera a Inglaterra en semis",
+          "dek": "Un golazo de Julián Álvarez y un remate de Lautaro Martínez sellaron el pase albiceleste; Suiza había empatado tras la expulsión de Embolo por simulación.",
+          "source": "https://cnnespanol.cnn.com/2026/07/11/deportes/live-news/argentina-suiza-mundial-2026-resultado-goles-orix"
+        },
+        {
+          "eyebrow": "Geopolítica",
+          "title": "China y Rusia realizan maniobras navales conjuntas en el Mar Amarillo",
+          "dek": "Los ejercicios 'Joint Sea-2026' parten de Qingdao y se prolongarán con una patrulla marítima conjunta en el Pacífico, en paralelo a los ejercicios defensivos de Taiwán.",
+          "source": "https://www.escenariomundial.com/2026/07/07/taiwan-advierte-un-aumento-de-movimientos-navales-chinos-en-plena-temporada-de-ejercicios-militares/"
+        }
+      ]
+    },
+    "chile": {
+      "label": "Chile",
+      "wire": "santiago wire",
+      "notas": [
+        {
+          "eyebrow": "Política",
+          "title": "Aprobación de Kast cae al 32%, su mínimo desde que asumió, según encuesta Criteria",
+          "dek": "El 55% de los chilenos desaprueba la gestión del Presidente; los atributos de liderazgo y capacidad para dar seguridad al país registraron las mayores caídas.",
+          "more": "El atributo 'es el líder que Chile necesita' bajó 8 puntos en la última medición, de 42% a 34%. La aprobación arrancó en 57% al inicio del gobierno en marzo y ha caído de forma sostenida. La capacidad de hacer crecer la economía bajó de 54% a 48%, y la de dar seguridad, de 48% a 42%. El derrumbe ocurre semanas después de que el gobierno reconociera que la economía 'no está lejos' de una recesión técnica.",
+          "source": "https://www.latercera.com/politica/noticia/criteria-aprobacion-del-presidente-kast-llega-a-32-y-marca-su-nivel-mas-bajo-desde-el-inicio-del-gobierno/",
+          "imgPrompt": "Chilean president at a formal press conference with La Moneda palace facade visible in background, Chilean flag, microphones at podium, daylight"
+        },
+        {
+          "eyebrow": "Seguridad",
+          "title": "Homicidios bajan 13% en el primer semestre, pero los delitos de armas y drogas se disparan",
+          "dek": "El ministro Arrau reportó 442 homicidios entre enero y junio —66 menos que el año anterior—, aunque los crímenes vinculados a narcotráfico subieron casi 20% y los de armas, un 15%.",
+          "more": "Las caídas en homicidios se concentraron en la Región Metropolitana, Valparaíso, Biobío y La Araucanía. En cambio, en Coquimbo, O'Higgins y Maule los homicidios aumentaron. El gobierno destacó la baja general como un avance, pero reconoció que el combate al narcotráfico y la proliferación de armas es el desafío más urgente pendiente.",
+          "source": "https://radio.uchile.cl/2026/07/06/disminucion-de-homicidios-y-robos-violentos-arrau-presenta-balance-delictual-del-primer-semestre-del-2026/",
+          "imgPrompt": "Chilean Carabineros officers in uniform presenting security statistics at a press conference, Santiago, indoor official setting"
+        },
+        {
+          "eyebrow": "Economía",
+          "title": "El megaproyecto económico de Kast enfrenta un nuevo escenario: la oposición pone precio a sus votos",
+          "dek": "La llamada 'megarreforma' —que incluye rebaja del impuesto corporativo e invariabilidad de hasta 25 años para grandes inversiones— requiere votos que el gobierno aún no tiene asegurados.",
+          "more": "El proyecto es la pieza central de la agenda de reactivación del Ejecutivo. El gobierno asumió en un contexto de bajo crecimiento y desempleo en alza, y necesita ampliar su base parlamentaria para aprobarlo. La discusión ahora gira en torno a qué concesiones políticas o programáticas está dispuesto a hacer el gobierno para conseguir esos votos.",
+          "source": "https://www.concierto.cl/2026/07/el-nuevo-escenario-que-enfrenta-el-megaproyecto-del-gobierno-del-presidente-kast-la-pregunta-es-cual-es-el-precio/",
+          "imgPrompt": "Chilean Congress building in Valparaíso at daytime, politicians in suits walking toward the entrance, blue sky, Chilean flag"
+        },
+        {
+          "eyebrow": "Mundial 2026",
+          "title": "Las semifinales del Mundial se juegan esta semana: los horarios para seguirlas desde Chile",
+          "dek": "Francia–España va el martes 14 de julio desde las 15:00 hora chilena; Argentina–Inglaterra, el miércoles 15 desde las 17:00, con amplia cobertura televisiva y en streaming.",
+          "more": "Ninguno de los cuatro finalistas es chileno, pero el torneo que se juega en Norteamérica mantiene alto interés en el país. Argentina–Inglaterra tiene especial carga histórica para los aficionados del Cono Sur, con evocaciones a los cruces del 86 y el 98. La 'albiceleste' busca su tercer título mundialista.",
+          "source": "https://www.olympics.com/es/noticias/espana-francia-mundial-futbol-2026-previa-cuando-es-semifinal",
+          "imgPrompt": "Chileans wearing scarves and winter coats watching the World Cup together on a large screen at a bar in Santiago, excited crowd, winter night"
+        }
+      ],
+      "briefs": [
+        {
+          "eyebrow": "Sismología",
+          "title": "Sismo de magnitud 4.3 sacudió San Antonio el domingo",
+          "dek": "El temblor se registró a 246 kilómetros de profundidad y fue perceptible en la zona central; no se reportaron daños ni víctimas.",
+          "source": "https://www.infobae.com/noticias/2026/07/13/temblor-hoy-en-chile-se-registra-sismo-de-magnitud-43-en-san-antonio-este-12-de-julio/"
+        },
+        {
+          "eyebrow": "Mercados",
+          "title": "El dólar observado ronda los $929 en Chile este lunes",
+          "dek": "El tipo de cambio se mantiene relativamente estable; la UF alcanzó los $40.844 y la tasa de política monetaria del Banco Central permanece en 4,5%.",
+          "source": "https://www.bcentral.cl/en/"
+        },
+        {
+          "eyebrow": "Judicial",
+          "title": "Reserva de identidad de jueces vuelve al debate ante el avance del crimen organizado",
+          "dek": "Especialistas y autoridades evalúan protecciones para magistrados que conocen causas de alta complejidad, ante la creciente capacidad de intimidación de las redes criminales transnacionales.",
+          "source": "https://revistaseguridad.cl/2026/07/05/reserva-de-identidad-de-jueces-vuelve-al-centro-del-debate-ante-el-avance-del-crimen-organizado/"
+        },
+        {
+          "eyebrow": "Tránsito",
+          "title": "Restricción vehicular sin excepción este lunes en la Región Metropolitana",
+          "dek": "Los automóviles sin sello verde tienen prohibición absoluta de circular dentro del anillo Américo Vespucio de 07:30 a 21:00; las multas van de $70.000 a $90.000.",
+          "source": "https://www.chilevision.cl/noticias/te-ayuda/restriccion-vehicular-lunes-13-de-julio-revisa-si-podras-circular-por-la-region-metropolitana/"
+        },
+        {
+          "eyebrow": "Cooperación",
+          "title": "Uruguay y Chile refuerzan su cooperación contra el crimen organizado transnacional",
+          "dek": "Los presidentes Orsi y Kast reafirmaron el compromiso de compartir inteligencia y coordinar estrategias para combatir el narcotráfico y la violencia regional.",
+          "source": "https://www.infobae.com/america/america-latina/2026/07/02/uruguay-y-chile-estrechan-su-cooperacion-contra-el-flagelo-del-crimen-organizado-en-la-region/"
+        },
+        {
+          "eyebrow": "Congreso",
+          "title": "El Congreso retoma actividad esta semana con la agenda económica del gobierno sobre la mesa",
+          "dek": "Las comisiones del Parlamento reanudan trabajo legislativo; el foco está en los proyectos económicos del Ejecutivo en medio del debate por la megarreforma.",
+          "source": "https://www.mediabanco.com/pauta-mediabanco-actividad-legislativa-lunes-13-de-julio-de-2026/"
+        }
+      ]
+    }
+  }
+}
