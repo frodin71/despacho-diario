@@ -1,0 +1,181 @@
+{
+  "date": "2026-07-18",
+  "dateLabel": "Sábado 18 de julio de 2026",
+  "edition": "018",
+  "sections": {
+    "intl": {
+      "label": "Internacional",
+      "wire": "world wire",
+      "notas": [
+        {
+          "eyebrow": "Conflicto armado",
+          "title": "EE.UU. bombardea por séptima noche seguida a Irán mientras Teherán amenaza con una ofensiva total",
+          "dek": "Las fuerzas estadounidenses destruyeron puentes clave en el sur de Irán para aislar el puerto de Bandar Abbas; Teherán golpeó plantas desalinizadoras en Kuwait y disparó misiles contra bases en Jordania y Bahréin.",
+          "more": "Un asesor militar iraní advirtió que si los ataques continúan durante el fin de semana, Irán podría pasar a operaciones ofensivas a gran escala. Kuwait reportó heridos y daños en una planta que surte de agua a miles de hogares; Jordania interceptó diez misiles. El Congreso estadounidense, donde el Senado ya aprobó una resolución de poderes de guerra, no ha logrado frenar la escalada. Demócratas y algunos republicanos cuestionan la legalidad de reiniciar la campaña sin nueva autorización del Legislativo.",
+          "source": "https://www.cnn.com/2026/07/18/world/live-news/iran-war-trump",
+          "imgPrompt": "US military aircraft releasing bombs over a southern Iranian coastal port at night, explosions near a bridge, dark sky above the Persian Gulf"
+        },
+        {
+          "eyebrow": "Mundial 2026",
+          "title": "Argentina y España definen la Copa del Mundo este domingo en Nueva Jersey",
+          "dek": "Los actuales campeones de América y Europa se medirán mañana en el MetLife Stadium en la gran final de un torneo que bate récords de audiencia global.",
+          "more": "Argentina llega como el equipo más goleador (19 tantos) frente a España, la defensa menos batida del torneo con solo un gol en contra. La final arranca a las 15:00 horas de Chile y se transmitirá gratis por Chilevisión. El entretiempo se extenderá unos 30 minutos con actuaciones de Coldplay, Madonna, Shakira, Justin Bieber y BTS, bajo la dirección artística de Chris Martin.",
+          "source": "https://www.infobae.com/deportes/2026/07/17/argentina-vs-espana-por-la-final-del-mundial-2026-a-que-hora-juegan-como-verlo-en-vivo-y-todo-lo-que-hay-que-saber/",
+          "imgPrompt": "Argentina and Spain football players facing each other at midfield in a packed World Cup stadium at night, confetti, bright floodlights, MetLife Stadium"
+        },
+        {
+          "eyebrow": "Economía global",
+          "title": "El FMI recorta su pronóstico de crecimiento mundial a 3% por el impacto de la guerra con Irán",
+          "dek": "El conflicto y el cierre parcial del Estrecho de Ormuz dispararon el precio del crudo un 32% en el año y elevarán la inflación global a 4,7% en 2026, según el organismo.",
+          "more": "En su actualización de julio, el FMI estimó que el crecimiento mundial se recuperará a 3,4% en 2027 si la situación energética se estabiliza. La India será la economía de mayor dinamismo entre las grandes potencias (6,4%), mientras la zona euro apenas avanzará 0,9% y Japón un 0,6%. El impulso de la inteligencia artificial mitiga en parte el impacto negativo del conflicto bélico sobre la actividad.",
+          "source": "https://www.aljazeera.com/economy/2026/7/9/imf-cuts-2026-world-growth-forecast-citing-iran-war-fallout",
+          "imgPrompt": "declining global economic growth chart on a financial screen, oil barrels and a world map in the background, dark blue tones"
+        },
+        {
+          "eyebrow": "Guerra en Ucrania",
+          "title": "La aprobación de Putin cae al mínimo desde el inicio de la guerra, impulsada por la crisis de combustible interna",
+          "dek": "Una encuesta estatal registró la mayor baja semanal de popularidad del mandatario ruso desde 2022, con un 16% de desaprobación, el nivel más alto desde la invasión a gran escala.",
+          "more": "El sondeo del FOM ubicó la aprobación de Putin en 66%, una caída de cinco puntos en una sola semana. El principal detonante fue la escasez interna de combustible, no la situación en el frente. El Kremlin rechazó propuestas de alto al fuego sobre las líneas actuales: Putin prioriza el control completo del Donbás. Ucrania atacó una refinería en Yaroslavl y embarcaciones en el Mar Negro, sin que ninguna de las partes lograra avances territoriales relevantes.",
+          "source": "https://meduza.io/en/news/2026/07/17/putin-s-approval-rating-just-posted-its-steepest-drop-since-russia-invaded-ukraine",
+          "imgPrompt": "Vladimir Putin at a press conference podium, stern expression, Russian flags in background, formal Kremlin press room"
+        },
+        {
+          "eyebrow": "Política en EE.UU.",
+          "title": "El Congreso de EE.UU. presiona a Trump para recuperar el control sobre la guerra con Irán",
+          "dek": "Demócratas y algunos republicanos exigen que el Legislativo autorice formalmente la reanudación de los bombardeos; el Senado ya aprobó una resolución de poderes de guerra.",
+          "more": "El senador Adam Schiff y otros legisladores demócratas presentaron una nueva resolución argumentando que la notificación enviada por Trump al Congreso el 10 de julio no abre un nuevo período de 60 días para hacer la guerra sin aval legislativo. La escalada llega en un contexto en que el precio de la gasolina vuelve a subir y el conflicto amenaza la agenda económica interna del partido gobernante.",
+          "source": "https://time.com/article/2026/07/14/democrats-republicans-lawmakers-criticize-trump-resumption-iran-war-strait-of-hormuz/",
+          "imgPrompt": "US Senate chamber in session, lawmakers at their desks, American flags, wide angle formal legislative setting"
+        }
+      ],
+      "briefs": [
+        {
+          "eyebrow": "Energía",
+          "title": "El crudo acumula un alza del 32% en 2026 por el bloqueo del Estrecho de Ormuz",
+          "dek": "El paso por donde transita una quinta parte del petróleo mundial sigue bajo presión bélica; el gas natural también subió un 22% en el mismo período.",
+          "source": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026"
+        },
+        {
+          "eyebrow": "Ucrania",
+          "title": "Drones ucranianos golpean una refinería en Yaroslavl y embarcaciones en el Mar Negro",
+          "dek": "Kiev amplió el alcance de sus ataques nocturnos mientras el frente terrestre permanece estancado sin avances territoriales significativos de ninguna de las partes.",
+          "source": "https://www.kyivpost.com/post/80551"
+        },
+        {
+          "eyebrow": "Geopolítica",
+          "title": "China exige a EE.UU. cesar las amenazas militares y levantar el bloqueo a Cuba",
+          "dek": "Pekín intensificó su ofensiva diplomática frente a Washington con declaraciones en varios frentes, incluyendo la defensa de La Habana ante la presión estadounidense.",
+          "source": "https://spanish.news-pravda.com/mexico/2026/07/18/1024117.html"
+        },
+        {
+          "eyebrow": "Economía",
+          "title": "India se confirma como la gran economía de mayor crecimiento del mundo con un avance del 6,4%",
+          "dek": "El FMI destacó el dinamismo indio en un año marcado por la guerra en Irán y la desaceleración generalizada de las economías desarrolladas.",
+          "source": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026"
+        },
+        {
+          "eyebrow": "Defensa",
+          "title": "París acoge Eurosatory 2026, la mayor feria de tecnología militar terrestre de la OTAN",
+          "dek": "El evento reúne a fabricantes y gobiernos para exhibir las plataformas blindadas y sistemas de defensa que equiparán a las fuerzas aliadas en la próxima década.",
+          "source": "https://es.euronews.com/video/2026/07/18/ultimas-noticias-18-julio-2026-manana"
+        },
+        {
+          "eyebrow": "Ucrania",
+          "title": "Zelensky anunció una nueva ronda de cambios en el gabinete ucraniano",
+          "dek": "El presidente ucraniano realizó movimientos de personal en su gobierno en medio de las operaciones militares en el frente este y el respaldo financiero occidental.",
+          "source": "https://kyivindependent.com/"
+        },
+        {
+          "eyebrow": "Medio Oriente",
+          "title": "Irán declaró que todas las bases militares de EE.UU. en la región son objetivos legítimos",
+          "dek": "El ejército iraní advirtió que las consecuencias de los ataques estadounidenses recaerán sobre todas las instalaciones estadounidenses y de sus aliados en el Golfo Pérsico.",
+          "source": "https://www.nbcnews.com/world/iran/us-strikes-bridges-iran-port-hormuz-bandar-abbas-syria-rcna587959"
+        }
+      ]
+    },
+    "chile": {
+      "label": "Chile",
+      "wire": "santiago wire",
+      "notas": [
+        {
+          "eyebrow": "Emergencia climática",
+          "title": "Temporal histórico golpea Chile: 4 muertos, alerta roja en Valparaíso y medio millón de hogares sin luz",
+          "dek": "Un potente tren de sistemas frontales con río atmosférico excepcional azota diez regiones, con rachas de viento sobre los 160 km/h y lluvias que podrían ser las más intensas de un julio en décadas.",
+          "more": "Valparaíso acumula 142 milímetros de lluvia desde el jueves, situando el episodio entre los más significativos para el mes. Unas 2.500 personas quedaron incomunicadas y cerca de 1.600 viviendas sufrieron daños. Se evacuaron poblaciones aledañas a los esteros Marga Marga y Quilpué; una docena de asentamientos en Viña del Mar y Valparaíso permanecen en observación. El sistema de frentes, acompañado de un río atmosférico de características excepcionales, continuará al menos hasta la noche del domingo.",
+          "source": "https://es.euronews.com/2026/07/18/inundaciones-en-chile-4-muertos-2500-incomunicados-y-500000-personas-sin-electricidad",
+          "imgPrompt": "flooded streets in a Chilean coastal city during a severe storm, Valparaíso hillside buildings in the background, emergency vehicles, heavy rain and wind"
+        },
+        {
+          "eyebrow": "Tragedia",
+          "title": "Tres personas mueren en hostal de Viña del Mar intoxicadas con monóxido de carbono durante el temporal",
+          "dek": "La PDI determinó que las víctimas usaron un generador de ozono para secar la humedad del inmueble; el corte de electricidad del sector impidió detectar el peligro a tiempo.",
+          "more": "El hecho ocurrió en el barrio Recreo, en Ciudad Jardín. Las tres víctimas —dos mujeres y un hombre— fueron halladas sin vida al interior del hostal. Las autoridades aprovecharon el caso para advertir sobre los riesgos del uso de aparatos de combustión en espacios cerrados durante los cortes de luz provocados por el temporal.",
+          "source": "https://www.t13.cl/noticia/nacional/que-se-sabe-sobre-las-tres-personas-fueron-encontradas-muertas-vina-del-mar-pre-18-7-2026",
+          "imgPrompt": "police and emergency responders at the entrance of a building at night in Viña del Mar, rain, flashing lights, Chilean investigators with evidence bags"
+        },
+        {
+          "eyebrow": "Legislativo",
+          "title": "El Senado aprobó de madrugada la megarreforma de Kast y el proyecto vuelve a la Cámara para su tercer trámite",
+          "dek": "Con 26 votos a favor y 24 en contra, la Ley de Reconstrucción Nacional superó casi 12 horas de debate y ahora deberá ser ratificada por la Cámara de Diputados.",
+          "more": "Entre los puntos más polémicos figura la reducción gradual del impuesto corporativo para grandes empresas del 27% al 23% hasta 2029, y la invariabilidad tributaria por hasta 20 años para inversiones superiores a 350 millones de dólares. La oposición denunció la iniciativa como una reforma tributaria encubierta en favor de los sectores de mayor riqueza. El ministro de Hacienda Jorge Quiroz celebró la aprobación y anticipó que impulsará el resto de la agenda económica del gobierno en los próximos meses.",
+          "source": "https://radio.uchile.cl/2026/07/16/a-las-240-horas-el-senado-aprobo-megarreforma-proyecto-volvio-a-la-camara/",
+          "imgPrompt": "Chilean Senate chamber at night during a marathon legislative session, lawmakers voting, Santiago, formal governmental setting"
+        },
+        {
+          "eyebrow": "Economía",
+          "title": "Chile bordea la recesión técnica con crecimiento proyectado de apenas 1,3% y desempleo en 9,4%",
+          "dek": "El Banco Central recortó su pronóstico para 2026 y el Imacec acumula cinco meses de retrocesos consecutivos, mientras gobierno y oposición se culpan mutuamente por el estancamiento.",
+          "more": "El PIB del primer trimestre cayó 0,5% interanual y la minería —principalmente el cobre— encabezó la baja de la actividad. El gobierno atribuye el mal desempeño a la herencia de la administración anterior; la oposición lo vincula a las políticas actuales. La megarreforma recién aprobada en el Senado es la apuesta central del Ejecutivo para reactivar la inversión y superar el bache económico.",
+          "source": "https://www.biobiochile.cl/noticias/economia/actualidad-economica/2026/07/14/recesion-tecnica-o-una-pausa-las-cifras-que-tensionan-el-optimismo-del-gobierno-sobre-la-economia.shtml",
+          "imgPrompt": "a descending economic chart next to Chilean peso coins, Santiago financial district skyline in the background, overcast sky, wide shot"
+        },
+        {
+          "eyebrow": "Seguridad",
+          "title": "Los homicidios caen 13% en el primer semestre pero el crimen organizado mantiene la alerta",
+          "dek": "Chile registró 442 víctimas de homicidio entre enero y junio, muy por debajo del peak de 2022; los secuestros se redujeron 42%, aunque el lavado con criptomonedas genera nuevas preocupaciones.",
+          "more": "Las autoridades vinculan la tendencia positiva a la mayor coordinación policial y al Compromiso Regional de Santiago, acuerdo de cooperación contra el crimen organizado transnacional firmado con Uruguay y otros países del Cono Sur. Pese a ello, especialistas advierten que las organizaciones criminales se adaptan con rapidez e incorporan criptomonedas para lavar ganancias, lo que obliga a modernizar los mecanismos de persecución penal.",
+          "source": "https://icndiario.com/2026/07/homicidios-caen-13-en-2026-chile-destaca-descenso-de-delitos-violentos-pero-advierte-que-el-desafio-sigue-vigente/",
+          "imgPrompt": "Carabineros de Chile officers patrolling a Santiago street at night, police car with lights on, urban residential setting"
+        }
+      ],
+      "briefs": [
+        {
+          "eyebrow": "Mundial 2026",
+          "title": "La final Argentina–España se verá gratis por Chilevisión este domingo a las 15:00",
+          "dek": "El canal transmitirá el duelo por el título mundial desde el MetLife Stadium de Nueva Jersey con cobertura en señal abierta y streaming en su plataforma.",
+          "source": "https://www.chilevision.cl/chv-deportes/futbol-internacional/espana-vs-argentina-final-del-mundo-cuando-juega-como-ver-por-chilevision/"
+        },
+        {
+          "eyebrow": "Temporal",
+          "title": "El sistema frontal interrumpió rutas y dejó aisladas a más de 2.500 personas en varias regiones",
+          "dek": "Las crecidas de esteros y ríos cortaron caminos en Coquimbo, Valparaíso y la Metropolitana; las autoridades esperan precipitaciones al menos hasta el domingo.",
+          "source": "https://www.latercera.com/nacional/noticia/sistema-frontal-en-chile-en-vivo-sigue-las-lluvias-alertas-de-senapred-cortes-de-luz-y-el-estado-de-rutas/"
+        },
+        {
+          "eyebrow": "Emergencia",
+          "title": "SENAPRED activó alertas SAE y alertas rojas en diez regiones por el sistema frontal",
+          "dek": "El organismo de emergencias coordinó evacuaciones preventivas y el despliegue de servicios de rescate en las zonas más golpeadas por las lluvias y los vientos.",
+          "source": "https://www.24horas.cl/actualidad/nacional/aumento-a-4-la-cifra-de-muertos-en-chile-durante-el-sistema-frontal"
+        },
+        {
+          "eyebrow": "Legislativo",
+          "title": "La Ley de Reconstrucción Nacional pasa a tercer trámite en la Cámara de Diputados",
+          "dek": "Si los diputados ratifican los cambios del Senado, la ley podrá promulgarse; de lo contrario, irá a comisión mixta para resolver las diferencias.",
+          "source": "https://www.t13.cl/noticia/ex-ante/politica/que-viene-ahora-senado-aprobo-megarreforma-pero-agenda-economica-quiroz-recien-16-7-2026"
+        },
+        {
+          "eyebrow": "Judicial",
+          "title": "Resurge el debate sobre la reserva de identidad para jueces en causas de crimen organizado",
+          "dek": "El avance de redes criminales transnacionales que intimidan a operadores del sistema judicial reavivó la discusión sobre proteger la identidad de los magistrados.",
+          "source": "https://revistaseguridad.cl/2026/07/05/reserva-de-identidad-de-jueces-vuelve-al-centro-del-debate-ante-el-avance-del-crimen-organizado/"
+        },
+        {
+          "eyebrow": "Política exterior",
+          "title": "Chile refuerza su alianza regional contra el crimen organizado con Uruguay y el Cono Sur",
+          "dek": "El canciller destacó el Compromiso Regional de Santiago como eje de la estrategia de seguridad compartida con los países vecinos en materia de crimen transnacional.",
+          "source": "https://www.biobiochile.cl/noticias/nacional/chile/2026/07/15/canciller-destaca-alianza-regional-contra-crimen-organizado-y-estrategia-para-atraer-inversiones.shtml"
+        }
+      ]
+    }
+  }
+}
