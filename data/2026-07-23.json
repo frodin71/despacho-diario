@@ -1,0 +1,167 @@
+{
+  "date": "2026-07-23",
+  "dateLabel": "Jueves 23 de julio de 2026",
+  "edition": "023",
+  "sections": {
+    "intl": {
+      "label": "Internacional",
+      "wire": "world wire",
+      "notas": [
+        {
+          "eyebrow": "Medio Oriente",
+          "title": "Hutíes atacan dos petroleros saudíes en el Mar Rojo un día después del acuerdo nuclear EEUU-Riad",
+          "dek": "Los rebeldes yemeníes reivindicaron una operación con drones y misiles que provocó incendios a bordo de las embarcaciones Encelia y Layla; es su primera acción desde que declararon el bloqueo marítimo a buques saudíes el lunes.",
+          "more": "El ataque se produce horas después de que Washington y Riad suscribieran un acuerdo histórico de cooperación nuclear que incluiría la posibilidad de que Arabia Saudita enriquezca uranio. Los hutíes, aliados de Irán, dijeron que las embarcaciones no acataron el bloqueo. El Mar Rojo, vía por la que transita cerca del 12% del comercio mundial, vuelve a convertirse en zona de conflicto activo. Al menos nueve buques han cambiado de ruta desde el anuncio del bloqueo.",
+          "source": "https://www.infobae.com/america/mundo/2026/07/23/los-huties-atacaron-dos-petroleros-saudies-en-el-mar-rojo-y-abrieron-un-nuevo-frente-de-conflicto-en-medio-oriente/",
+          "imgPrompt": "a large oil tanker with smoke and fire on the Red Sea at night, aerial view, dark water, emergency flares visible"
+        },
+        {
+          "eyebrow": "Energía nuclear",
+          "title": "EEUU y Arabia Saudita firman un histórico acuerdo de cooperación nuclear civil de 30 años",
+          "dek": "El pacto —conocido como «Acuerdo 123»— permitirá a empresas estadounidenses construir reactores en el reino y abre la puerta al enriquecimiento de uranio en suelo saudí; deberá ser ratificado por el Congreso.",
+          "more": "El convenio fue suscrito por el secretario de Energía Chris Wright y el príncipe Abdulaziz bin Salman. Israel expresó inquietud ante la perspectiva de que un país árabe vecino desarrolle capacidad nuclear. El acuerdo se enmarca en la política de Washington de expandir la energía atómica civil como contrapeso al programa nuclear iraní.",
+          "source": "https://www.euronews.com/2026/07/23/us-announces-landmark-nuclear-deal-with-saudi-arabia",
+          "imgPrompt": "US and Saudi officials signing documents at a formal ceremony, American and Saudi Arabian flags flanking the table, official conference room, daylight"
+        },
+        {
+          "eyebrow": "Diplomacia",
+          "title": "Lavrov y Rubio se reúnen 35 minutos en Manila para abordar Ucrania e Irán",
+          "dek": "Los cancilleres de Rusia y Estados Unidos se encontraron al margen de la 59.ª cumbre de ministros de la ASEAN; Moscú reiteró su disposición a negociar el fin de la guerra ucraniana.",
+          "more": "Lavrov puso sobre la mesa información sobre la situación real en el frente ucraniano y rechazó nuevos envíos de armas a Kiev. También discutieron la crisis en el Golfo Pérsico y los lazos entre sus agencias espaciales. Ambas delegaciones acordaron mantener contactos a través de los canales diplomáticos existentes.",
+          "source": "https://www.abc.com.py/internacionales/2026/07/22/lavrov-confirma-la-reunion-en-manila-con-rubio-para-hablar-de-ucrania-e-iran/",
+          "imgPrompt": "two senior diplomats in business suits seated across a table in a formal hotel conference room, flag stands in background, neutral walls"
+        },
+        {
+          "eyebrow": "Espacio",
+          "title": "SpaceX intenta hoy el lanzamiento del Starship en su decimotercer vuelo de prueba",
+          "dek": "Tras el aborto de la semana pasada —cuando cuatro motores fallaron segundos antes del despegue—, la compañía reprogramó el vuelo para este jueves con 20 satélites Starlink a bordo.",
+          "more": "SpaceX modificó el sistema de propulsión para corregir el problema detectado en el vuelo anterior. El Super Heavy debe completar el ciclo completo de lanzamiento, separación de etapas y amerizaje controlado en el Golfo de América. Es además el primer vuelo del Starship desde que la empresa debutó en bolsa.",
+          "source": "https://www.larepublica.co/globoeconomia/spacex-lanzara-el-gigantesco-cohete-starship-en-su-primer-vuelo-desde-su-salida-a-bolsa-4437246",
+          "imgPrompt": "SpaceX Starship rocket on the launch pad at dawn with fueling vapors rising, wide angle shot, Boca Chica Texas coastline in the background"
+        },
+        {
+          "eyebrow": "América Latina",
+          "title": "Colombia: el presidente electo De la Espriella anuncia que Barranquilla será la capital alterna del país",
+          "dek": "Abelardo De la Espriella, que asume el 7 de agosto, impulsa un proyecto de ley para que el Congreso reconozca a la ciudad caribeña como sede oficial alterna del gobierno nacional.",
+          "more": "El mandatario electo dijo que gobernará desde las regiones y que tendrá sedes adicionales en Medellín y Cali, para romper con el que llama \"abandono centralista\" histórico. La propuesta requiere reforma constitucional y aún no tiene fecha de tramitación en el Congreso.",
+          "source": "https://www.infobae.com/colombia/2026/07/22/abelardo-de-la-espriella-quiere-convertir-a-barranquilla-en-la-capital-alterna-de-colombia-se-acabo-el-abandono-centralista/",
+          "imgPrompt": "aerial view of Barranquilla seafront boulevard with Colombian flags, tropical coastal city skyline and river port, daytime"
+        }
+      ],
+      "briefs": [
+        {
+          "eyebrow": "Guerra Irán",
+          "title": "La ofensiva de EEUU contra Irán llega a su duodécimo día sin señales de cese al fuego",
+          "dek": "Los ataques han golpeado infraestructura militar, de gas y petróleo, y vías de transporte en el sur de Irán; expertos advierten del riesgo de una guerra prolongada sin salida diplomática.",
+          "source": "https://cnnespanol.cnn.com/2026/07/22/mundo/live-news/guerra-ee-uu-israel-iran-en-vivo-ataques-noticias-4-trax"
+        },
+        {
+          "eyebrow": "Cumbre ASEAN",
+          "title": "La 59.ª reunión de cancilleres de la ASEAN en Manila convoca a las principales potencias mundiales",
+          "dek": "La cita, que se extiende hasta el 24 de julio, reunió a más de 20 ministros de relaciones exteriores con la guerra en Irán y el Mar del Sur de China en el centro del debate.",
+          "source": "https://www.audacy.com/winsnoticias/noticias/asean-cumbre-asia-filipinas-75cf71b5f96702fbdcc0897eef7a95ac"
+        },
+        {
+          "eyebrow": "Venezuela",
+          "title": "Trump advierte a Delcy Rodríguez: \"No te sientas muy cómoda\"",
+          "dek": "El presidente reiteró el mensaje a la vicepresidenta venezolana en medio de las tensiones por el posible regreso de la líder opositora María Corina Machado al país.",
+          "source": "https://lapatilla.com/2026/07/20/no-te-sientas-muy-comoda-la-inquietante-advertencia-que-trump-le-repite-a-delcy-sobre-maria-corina-machado/"
+        },
+        {
+          "eyebrow": "ONU",
+          "title": "Debate entre candidatos a secretario general de la ONU, con Bachelet en la carrera",
+          "dek": "La ex presidenta chilena, propuesta por México y Brasil para suceder a António Guterres, participa en el proceso de selección ante el Consejo de Seguridad.",
+          "source": "https://www.infobae.com/america/agencias/2026/07/23/jueves-23-de-julio-de-2026-0700-gmt/"
+        },
+        {
+          "eyebrow": "Rusia-Ucrania",
+          "title": "Moscú dice que Lavrov comprometió a Rusia con los acuerdos de Anchorage en la reunión con Rubio",
+          "dek": "La Cancillería rusa señaló que su ministro llevó al encuentro datos sobre la situación en el frente e insistió en que no se envíen más armas a Kiev.",
+          "source": "https://spanish.news-pravda.com/russia/2026/07/23/1032987.html"
+        },
+        {
+          "eyebrow": "Corea del Sur",
+          "title": "El presidente Lee Jae-myung inicia gira por América Latina que incluye Chile",
+          "dek": "El mandatario surcoreano visitará Brasil, Chile y Argentina para ampliar el comercio bilateral y fortalecer lazos energéticos en la región.",
+          "source": "https://www.infobae.com/america/agencias/2026/07/23/jueves-23-de-julio-de-2026-0700-gmt/"
+        }
+      ]
+    },
+    "chile": {
+      "label": "Chile",
+      "wire": "santiago wire",
+      "notas": [
+        {
+          "eyebrow": "Emergencia climática",
+          "title": "El temporal deja 13 muertos y más de 63.000 aislados; Kast decretó catástrofe en Coquimbo y Atacama",
+          "dek": "Un frente de lluvias extremas —potenciado por una rivera atmosférica de categoría 5 y el fenómeno de El Niño— golpea al país desde el 15 de julio y ya destruyó más de 1.100 viviendas y afectó 24.000.",
+          "more": "El gobierno decretó estado de excepción de catástrofe en Coquimbo y parte de Atacama el 20 de julio, regiones donde la lluvia es escasa. La Dirección Meteorológica de Chile lo califica como uno de los episodios más significativos en años por su extensión geográfica. Para este jueves está previsto un nuevo frente de lluvias en el norte.",
+          "source": "https://www.elesquiu.com/internacionales/2026/7/23/el-temporal-en-chile-ya-dejo-13-muertos-y-mas-de-63000-personas-aisladas-589886.html",
+          "imgPrompt": "flooded muddy street in a Chilean northern town, orange-vested emergency workers in the foreground, collapsed structures, overcast sky"
+        },
+        {
+          "eyebrow": "Legislativo",
+          "title": "Cámara de Diputados despacha a ley el grueso de la reforma económica de Kast",
+          "dek": "Con 85 votos a favor y 59 en contra, el pleno aprobó casi la totalidad del Plan de Reconstrucción Nacional: rebaja de impuesto a empresas del 27% al 23%, invariabilidad tributaria de hasta 20 años e incentivos a la inversión.",
+          "more": "Solo la norma de compensación a municipios por exención de contribuciones fue enviada a comisión mixta para resolver diferencias entre ambas cámaras. El ministro de Hacienda, Jorge Quiroz, celebró el apoyo transversal. La oposición anunció que recurrirá al Tribunal Constitucional para impugnar la cláusula de invariabilidad tributaria.",
+          "source": "https://www.chilevision.cl/noticias/nacional/megarreforma-sera-ley-camara-de-diputadas-y-diputados-despacha-plan-de-reconstruccion-nacional/",
+          "imgPrompt": "Chilean Chamber of Deputies in session, legislators at their desks in a large semicircular hall, overhead view, vote board illuminated"
+        },
+        {
+          "eyebrow": "Relaciones exteriores",
+          "title": "El presidente de Corea del Sur inicia gira por América Latina con Chile en el itinerario",
+          "dek": "Lee Jae-myung visita Brasil, Chile y Argentina para ampliar el comercio bilateral y fortalecer los lazos energéticos; Chile exporta a Corea del Sur litio, cobre y salmón.",
+          "more": "Corea del Sur es el cuarto mayor socio comercial de Chile en Asia. La visita busca avanzar en acuerdos de suministro de minerales críticos para la industria de baterías y vehículos eléctricos coreana, en un contexto de alta demanda global por litio.",
+          "source": "https://www.infobae.com/america/agencias/2026/07/23/jueves-23-de-julio-de-2026-0700-gmt/",
+          "imgPrompt": "South Korean and Chilean presidents shaking hands in front of both national flags at a formal state ceremony, press photographers in the background"
+        },
+        {
+          "eyebrow": "Diplomacia",
+          "title": "Michelle Bachelet, en la carrera para suceder a Guterres en la ONU",
+          "dek": "La ex presidenta chilena, postulada por México y Brasil, participó en el debate de candidatos ante el Consejo de Seguridad de la ONU; Guterres termina su mandato en diciembre de 2026.",
+          "more": "De llegar a ser elegida, Bachelet sería la primera mujer latinoamericana en encabezar la organización. El proceso de selección implica votaciones sucesivas en el Consejo de Seguridad, donde cualquiera de los cinco miembros permanentes puede vetar una candidatura.",
+          "source": "https://www.infobae.com/america/agencias/2026/07/23/jueves-23-de-julio-de-2026-0700-gmt/",
+          "imgPrompt": "Michelle Bachelet speaking at a United Nations podium, blue UN backdrop with gold emblem, formal attire, audience in the foreground"
+        }
+      ],
+      "briefs": [
+        {
+          "eyebrow": "Temporal",
+          "title": "Nuevo frente de lluvias llega este jueves al norte del país",
+          "dek": "Autoridades piden a la ciudadanía extremar precauciones en Atacama y Coquimbo, zonas aún en recuperación tras las inundaciones de la semana pasada.",
+          "source": "https://www.latercera.com/nacional/noticia/nuevo-frente-de-lluvias-llegara-al-pais-este-jueves-y-continua-desafiando-la-gestion-de-una-emergencia-prolongada/"
+        },
+        {
+          "eyebrow": "Sismología",
+          "title": "El norte de Chile registra sismos de hasta 5,0 en 24 horas",
+          "dek": "Los movimientos se concentraron en Socaire, Sierra Gorda y San Pedro de Atacama sin reportes de daños ni víctimas.",
+          "source": "https://www.infobae.com/noticias/2026/07/23/temblor-en-chile-se-registra-sismo-de-magnitud-47-con-epicentro-en-socaire/"
+        },
+        {
+          "eyebrow": "Constitucional",
+          "title": "Oposición anuncia recurso al Tribunal Constitucional contra la invariabilidad tributaria",
+          "dek": "Parlamentarios y académicos advierten que el mecanismo aprobado podría limitar la capacidad de futuros gobiernos para modificar la política fiscal por hasta dos décadas.",
+          "source": "https://www.latercera.com/politica/noticia/minuto-a-minuto-sigue-en-vivo-la-votacion-de-la-megarreforma-de-kast-en-la-camara-de-diputados/"
+        },
+        {
+          "eyebrow": "Reconstrucción",
+          "title": "Gobierno destinará 400 mil millones de pesos para reconstruir Ñuble, Biobío y Valparaíso",
+          "dek": "La partida, anunciada junto al Plan de Reconstrucción Nacional, apunta a zonas afectadas por los incendios forestales y el presente temporal invernal.",
+          "source": "https://www.gob.cl/noticias/principales-medidas-plan-reconstruccion-nacional-detalles/"
+        },
+        {
+          "eyebrow": "Meteorología",
+          "title": "Santiago tendrá lluvia nocturna y máxima de 21°C este jueves",
+          "dek": "El cielo de la capital estará cubierto durante el día, con probabilidad de precipitaciones hacia la noche, en el contexto del temporal que afecta al centro-norte.",
+          "source": "https://www.vlnradio.cl/noticias/nacional/region-metropolitana/2026/07/22/tiempo-hoy-en-santiago-jornada-del-23-de-julio-de-2026/"
+        },
+        {
+          "eyebrow": "Economía",
+          "title": "Analistas advierten que el temporal presionará aún más los débiles indicadores del segundo trimestre",
+          "dek": "La emergencia climática se suma al PIB negativo del primer trimestre y al desempleo de 9,4%, y podría retrasar la recuperación que el gobierno espera para el segundo semestre.",
+          "source": "https://www.df.cl/economia-y-politica/actualidad/kast-aspira-a-que-proyecto-miscelaneo-se-apruebe-en-julio-y-le-resta"
+        }
+      ]
+    }
+  }
+}
