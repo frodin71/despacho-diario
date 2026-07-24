@@ -1,0 +1,167 @@
+{
+  "date": "2026-07-24",
+  "dateLabel": "Viernes 24 de julio de 2026",
+  "edition": "024",
+  "sections": {
+    "intl": {
+      "label": "Internacional",
+      "wire": "world wire",
+      "notas": [
+        {
+          "eyebrow": "Conflicto Irán",
+          "title": "Trump evalúa un 'ataque masivo' contra Irán mientras el conflicto entra en su decimotercera jornada",
+          "dek": "Las fuerzas de EEUU bombardearon Irán por decimotercer noche consecutiva; Teherán contraatacó con drones kamikaze contra bases militares de Washington en Baréin y Jordania. Trump declaró que evalúa ordenar una ofensiva 'más grande que nunca' y amenazó con incautar activos iraníes congelados para cubrir los daños a buques.",
+          "more": "Irán rechazó una oferta de cese al fuego presentada por el primer ministro iraquí, quien visitó Washington y Teherán como mediador. El conflicto estalló el 8 de julio cuando Trump declaró rota la tregua al reanudar Irán los ataques en el Estrecho de Ormuz. Los drones iraníes 'Arash' atacaron depósitos de combustible, almacenes y barracones en la base aérea de Isa (Baréin) y hangaras de aviación en Al-Azraq (Jordania). El cierre de rutas marítimas en el Golfo Pérsico y el Mar Rojo sigue perturbando el comercio mundial.",
+          "source": "https://www.elespanol.com/mundo/oriente-proximo/20260724/guerra-iran-ultima-hora-directo-washington-emprende-decimotercera-ofensiva-consecutiva-amenaza-trump-ataque-masivo/1003744332316_10.html",
+          "imgPrompt": "night aerial view of an industrial facility in flames after an airstrike in a desert landscape, orange fire glow reflecting on dark smoke plumes, vast darkness below"
+        },
+        {
+          "eyebrow": "India",
+          "title": "India afronta una jornada de protesta masiva: el movimiento 'Cucarachas' exige en todo el país la renuncia de Modi",
+          "dek": "El Cockroach Janta Party convocó una huelga nacional para este viernes tras la represión policial que dejó 60 heridos y 70 detenidos en el último mitin. Miles de jóvenes se congregan en Nueva Delhi, Bombay, Bangalore y Calcuta; el líder opositor Rahul Gandhi fue arrestado frente a la residencia de Modi y liberado horas después.",
+          "more": "El movimiento nació en redes sociales y estalló en las calles tras la anulación del examen NEET-UG de acceso a Medicina por una presunta filtración que dejó a miles de estudiantes en el limbo y desató suicidios. Los manifestantes adoptaron el apodo 'cucarachas' como insignia de orgullo después de que el ministro de Educación Dharmendra Pradhan —su principal blanco— usara ese término como insulto. Las protestas se mantienen centradas en el campamento permanente frente a la residencia del primer ministro Narendra Modi.",
+          "source": "https://www.infobae.com/america/agencias/2026/07/23/las-cucarachas-de-la-india-anuncian-protesta-nacional-el-viernes-tras-represion-policial/",
+          "imgPrompt": "massive street protest in India with thousands of young people marching through a wide urban avenue at daytime, colorful signs held high, police line visible in background, city skyline"
+        },
+        {
+          "eyebrow": "Justicia internacional",
+          "title": "Los 125 países de la CPI votan hoy en Nueva York si destituyen al fiscal Karim Khan",
+          "dek": "La Asamblea de Estados Partes de la Corte Penal Internacional se reúne en la sede de la ONU para decidir, por papeleta secreta, la remoción del fiscal jefe acusado de conducta sexual indebida con una empleada de su oficina. Países Bajos ya anunció su voto a favor.",
+          "more": "La investigación de la Oficina de Supervisión Interna de la ONU encontró evidencia de conducta inapropiada entre marzo de 2023 y abril de 2024. Khan, jurista británico y fiscal de la CPI desde 2021, niega las acusaciones y alega que el proceso fue injusto. Se requieren al menos 63 votos para la destitución. De prosperar, sería la primera vez en la historia que un fiscal jefe de la CPI es removido del cargo.",
+          "source": "https://holanews.com/paises-de-la-cpi-votan-si-destituir-al-fiscal-en-un-caso-con-claroscuros/",
+          "imgPrompt": "formal international assembly room styled like the United Nations General Assembly, delegates seated at rows of national desks with name placards, voting session in progress, flags lining the walls"
+        },
+        {
+          "eyebrow": "Espacio",
+          "title": "SpaceX intenta hoy su decimotercer vuelo del Starship tras dos abortos consecutivos",
+          "dek": "La nave más grande de la historia vuelve a la plataforma de Boca Chica este viernes en un nuevo intento de lanzamiento. De despegar, llevará al espacio por primera vez los 20 primeros satélites Starlink V3 de nueva generación, el debut de la constelación más ambiciosa de la empresa.",
+          "more": "El intento del 23 de julio fue abortado, segundo fallo consecutivo tras el del 16 de julio, cuando cuatro motores Raptor no alcanzaron parámetros aceptables. SpaceX reemplazó dos motores entre los intentos. Es el primer vuelo del Starship desde que la compañía debutó en bolsa. Un éxito abriría el despliegue de una constelación de hasta 100.000 satélites V3 en órbita baja terrestre.",
+          "source": "https://www.space.com/news/live/spacex-starship-flight-13-launch-updates-july-23-2026",
+          "imgPrompt": "SpaceX Starship giant rocket on launch pad at sunset in Boca Chica Texas, vast flat coastal landscape, fueling vapor cloud rising from the base, clear sky with orange horizon glow"
+        },
+        {
+          "eyebrow": "América Latina",
+          "title": "Perú inaugura hoy su Congreso bicameral; Keiko Fujimori asumirá la presidencia el martes",
+          "dek": "Sesenta senadores y 130 diputados juran sus cargos en Lima para el período 2026–2031. Fuerza Popular preside la Junta Preparatoria. La presidenta electa, primera mujer en la historia del Perú elegida por voto popular, tomará posesión el 28 de julio.",
+          "more": "Keiko Fujimori ganó las elecciones en su cuarto intento y llega al poder con el partido más votado pero sin mayoría absoluta en el Congreso. Hereda un país con 193 conflictos sociales registrados en marzo, alta percepción de corrupción —el último lugar entre 69 economías del IMD— y un aparato institucional debilitado. El nuevo Congreso bicameral fue restaurado tras décadas de unicameralismo.",
+          "source": "https://www.infobae.com/peru/2026/07/23/keiko-fujimori-ultimas-actividades-y-agenda-de-la-presidenta-electa-previo-su-juramentacion-del-28-de-julio/",
+          "imgPrompt": "Peruvian Congress chamber filled with legislators in formal attire at their seats during an official ceremony, national flags and official crest visible in a semicircular hall, Lima"
+        }
+      ],
+      "briefs": [
+        {
+          "eyebrow": "Deporte",
+          "title": "Santo Domingo inaugura los XXV Juegos Centroamericanos con más de 6.000 atletas de 37 naciones",
+          "dek": "La ceremonia de apertura esta tarde en el Estadio Olímpico Félix Sánchez incluirá 1.100 drones y 30.000 insignias LED. Las competencias se extienden hasta el 8 de agosto en 40 deportes.",
+          "source": "https://www.infobae.com/republica-dominicana/2026/07/23/la-ceremonia-inaugural-de-los-juegos-centroamericanos-y-del-caribe-2026-integrara-un-despliegue-tecnologico-en-santo-domingo/"
+        },
+        {
+          "eyebrow": "Mar Rojo",
+          "title": "Reino Unido condena el ataque hutí a los petroleros saudíes y llama a restablecer la libertad de navegación",
+          "dek": "Londres cuestionó el doble ataque del miércoles contra los buques Encelia y Layla en el Mar Rojo y advirtió que la escalada afecta la estabilidad del comercio marítimo global.",
+          "source": "https://www.infobae.com/america/mundo/2026/07/24/guerra-en-medio-oriente-en-vivo/"
+        },
+        {
+          "eyebrow": "Asia",
+          "title": "Cierra en Manila la 59.ª reunión de cancilleres de la ASEAN con el 50 aniversario del Tratado de Amistad",
+          "dek": "La cita, que tuvo como momentos clave la reunión Lavrov-Rubio y el debate sobre el Mar del Sur de China, concluye hoy con un llamado multilateral a una salida diplomática al conflicto EEUU-Irán.",
+          "source": "https://www.infobae.com/america/agencias/2026/07/24/viernes-24-de-julio-de-2026-0700-gmt/"
+        },
+        {
+          "eyebrow": "Cultura",
+          "title": "Tomorrowland reabre en Bélgica bajo el lema 'Consciencia' un año después del incendio de su escenario principal",
+          "dek": "El festival de música electrónica más grande del mundo vuelve a Boom con una nueva infraestructura de escenarios y un concepto ecológico tras el fuego que destruyó el Main Stage en 2025.",
+          "source": "https://www.infobae.com/america/agencias/2026/07/24/viernes-24-de-julio-de-2026-0700-gmt/"
+        },
+        {
+          "eyebrow": "Cultura",
+          "title": "Comic-Con de San Diego centra su segunda jornada en 'Blade Runner 2099' y 'El Señor de los Anillos: Los Anillos de Poder'",
+          "dek": "Los estudios presentan ante miles de fanáticos y prensa especializada los avances de sus producciones más anticipadas de la temporada en el Centro de Convenciones de San Diego.",
+          "source": "https://www.infobae.com/america/agencias/2026/07/24/viernes-24-de-julio-de-2026-0700-gmt/"
+        },
+        {
+          "eyebrow": "Patrimonio",
+          "title": "La Unesco examina la candidatura del yacimiento palestino de Sebastia al Patrimonio Mundial",
+          "dek": "El Comité del Patrimonio Mundial analiza hoy si incluye en su lista el antiguo enclave cananeo en Cisjordania, en una sesión que Israel y la Autoridad Palestina siguen con intereses opuestos.",
+          "source": "https://www.infobae.com/america/agencias/2026/07/24/viernes-24-de-julio-de-2026-0700-gmt/"
+        }
+      ]
+    },
+    "chile": {
+      "label": "Chile",
+      "wire": "santiago wire",
+      "notas": [
+        {
+          "eyebrow": "Emergencia",
+          "title": "Los daños del temporal superan los 700 millones de dólares y los damnificados comienzan a retornar a sus hogares",
+          "dek": "Con el frente de mal tiempo disipado, miles de familias en Coquimbo, Atacama y otras ocho regiones rescatan sus pertenencias entre el fango. Los daños en infraestructura, viviendas y sectores productivos casi duplican las primeras estimaciones del gobierno.",
+          "more": "La Tercera cifró los daños totales en más de 700 millones de dólares, frente a los 400 millones que el gobierno había proyectado inicialmente. El temporal de 2026 dejó 13 muertos, 24.459 viviendas afectadas y al menos 63.000 personas aisladas en su peak. Los 3.664 damnificados formales están siendo atendidos en refugios y albergues. Las zonas bajo estado de catástrofe —Coquimbo y la provincia de Huasco en Atacama— mantienen presencia militar para facilitar la reconstrucción.",
+          "source": "https://www.latercera.com/pulso/noticia/danos-en-infraestructura-viviendas-y-sectores-productivos-suben-a-mas-de-us700-millones-por-efectos-del-temporal/",
+          "imgPrompt": "Chilean family sifting through mud and debris of a damaged adobe home in a northern Chilean town, orange-vested rescuers helping nearby, destroyed furniture and clothing visible, overcast sky"
+        },
+        {
+          "eyebrow": "Diplomacia",
+          "title": "Bachelet se planta como 'líder probada' en el primer debate entre los seis candidatos a la Secretaría General de la ONU",
+          "dek": "La ex presidenta chilena, respaldada por México y Brasil, defendió ayer en Nueva York su candidatura en la primera jornada de debates que da inicio a la fase clave del proceso de selección.",
+          "more": "Bachelet destacó sus dos mandatos presidenciales, su gestión como ministra de Defensa y Salud, y su rol como alta comisionada de DDHH de la ONU para argumentar que es una líder con experiencia global. El proceso de selección debería resolverse entre agosto y octubre, con la Asamblea General formalizando el nombramiento a fin de año para que quien resulte elegido asuma en enero de 2027. El gobierno de Kast le retiró el apoyo oficial que Boric le había prometido; la candidatura avanza gracias al respaldo latinoamericano. De ganar, sería la primera mujer latinoamericana al frente de la ONU.",
+          "source": "https://www.theclinic.cl/2026/07/23/soy-una-lider-probada-michelle-bachelet-enfrenta-su-primer-debate-con-los-cinco-contendores-para-la-secretaria-general-de-la-onu/",
+          "imgPrompt": "Michelle Bachelet speaking confidently at a United Nations press podium, blue UN backdrop with gold emblem, formal attire, cameras flashing from the press pool"
+        },
+        {
+          "eyebrow": "Relaciones exteriores",
+          "title": "El presidente de Corea del Sur inicia hoy su gira latinoamericana y llegará a Chile el 29 de julio para modernizar el TLC",
+          "dek": "Lee Jae-myung partió este viernes hacia una gira de diez días por Brasil, Chile y Argentina, con Santiago en el itinerario para los días 29 y 30. La agenda con Kast busca actualizar el Tratado de Libre Comercio bilateral e impulsar acuerdos de suministro de litio y cobre.",
+          "more": "Corea del Sur es el cuarto socio comercial de Chile en Asia. Chile exporta a ese mercado litio, cobre y salmón, y la alta demanda coreana por minerales críticos para baterías y vehículos eléctricos hace de esta visita un encuentro estratégico. Lee también buscará avanzar en un acuerdo comercial Corea-Mercosur, del que Chile podría beneficiarse como país asociado al bloque.",
+          "source": "https://www.biobiochile.cl/noticias/internacional/asia/2026/07/22/presidente-de-corea-del-sur-visitara-chile-para-fortalecer-inversiones-y-modernizar-el-tlc.shtml",
+          "imgPrompt": "South Korean presidential delegation at a formal airport send-off ceremony, Korean and Latin American flags, suited officials, government airplane in background"
+        },
+        {
+          "eyebrow": "Economía",
+          "title": "Santander recorta su proyección del PIB de Chile a cerca de 1% y el gobierno revisa la meta a 1,8%",
+          "dek": "Con un Imacec de mayo en -0,9%, el desempleo en 9,4% y el impacto del temporal en el horizonte, los analistas ajustan a la baja sus pronósticos para 2026 y ponen en duda la reactivación esperada para el segundo semestre.",
+          "more": "El gobierno de Kast había proyectado 2,4% de crecimiento para 2026, pero los datos del primer semestre obligaron a revisar esa meta. El ministro de Hacienda señaló que el Plan de Reconstrucción Nacional —aprobado en la Cámara el 23 de julio— debería impulsar el crecimiento a 3,7% en 2027 si se implementa plenamente. El mercado proyecta un IPC de 0,2% para julio y un crecimiento anual de 1,3%.",
+          "source": "https://www.df.cl/economia-y-politica/macro/santander-recorta-proyeccion-de-pib-2026-a-cerca-de-1",
+          "imgPrompt": "financial analysts reviewing downward-trending charts in a Santiago de Chile office, city skyscrapers visible through glass windows in the background, afternoon light"
+        }
+      ],
+      "briefs": [
+        {
+          "eyebrow": "Sismología",
+          "title": "42 temblores sacuden Chile en las últimas 24 horas; el mayor alcanzó magnitud 4,3 frente a Coquimbo",
+          "dek": "La actividad sísmica se concentra en el norte del país, zona que aún no termina de recuperarse del temporal. No hay alertas de tsunami ni reportes de daños.",
+          "source": "https://www.volcanodiscovery.com/es/terremotos/chile.html"
+        },
+        {
+          "eyebrow": "Legislativo",
+          "title": "Kast exige resolver 'con máxima prontitud' el artículo pendiente del Plan de Reconstrucción en comisión mixta",
+          "dek": "La compensación a municipios por exención de contribuciones —el único artículo no despachado el jueves— quedó en manos de la comisión mixta; el gobierno presiona para cerrar el trámite antes de fin de mes.",
+          "source": "https://www.df.cl/economia-y-politica/politica/kast-pide-resolver-rapido-comision-mixta-por-reconstruccion-esto-va-a"
+        },
+        {
+          "eyebrow": "Constitucional",
+          "title": "Oposición alista recurso al Tribunal Constitucional contra la cláusula de invariabilidad tributaria",
+          "dek": "Parlamentarios y juristas cuestionan que el mecanismo aprobado —que blinda la política fiscal por hasta 20 años— cercene la capacidad de futuros gobiernos para modificar impuestos.",
+          "source": "https://www.latercera.com/politica/noticia/minuto-a-minuto-sigue-en-vivo-la-votacion-de-la-megarreforma-de-kast-en-la-camara-de-diputados/"
+        },
+        {
+          "eyebrow": "Economía",
+          "title": "El mercado proyecta un IPC de 0,2% en julio y crecimiento anual de 1,3% para Chile",
+          "dek": "La Encuesta de Expectativas Económicas del Banco Central muestra perspectivas moderadas para el segundo semestre pese a la debilidad del primer semestre y al impacto del temporal.",
+          "source": "https://www.cooperativa.cl/noticias/economia/banco-central/mercado-proyecta-que-el-pib-de-2026-aumentara-en-1-3-y-un-ipc-de-0-2-en/2026-07-10/125455.html"
+        },
+        {
+          "eyebrow": "Deporte",
+          "title": "Chile compite desde hoy en los Juegos Centroamericanos y del Caribe de Santo Domingo",
+          "dek": "La delegación nacional participa en las 40 disciplinas del certamen con el objetivo de superar la marca histórica de medallas. Las competencias se extienden hasta el 8 de agosto.",
+          "source": "https://www.clarosports.com/juegos-centroamericanos/sede-jjcc-2026-santo-domingo/"
+        },
+        {
+          "eyebrow": "Recuperación",
+          "title": "El norte recupera el buen tiempo y los equipos de emergencia aceleran el trabajo en Atacama y Coquimbo",
+          "dek": "Sin nuevos frentes de lluvia previstos, las autoridades aprovechan la ventana de buen tiempo para inspeccionar caminos cortados, restablecer el agua potable y evaluar el parque de viviendas dañadas.",
+          "source": "https://www.vlnradio.cl/noticias/nacional/region-de-antofagasta/2026/07/23/antofagasta-hoy-pronostico-del-viernes-24-de-julio/"
+        }
+      ]
+    }
+  }
+}
